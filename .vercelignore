@@ -1,0 +1,17 @@
+.git/
+.vercel/
+data/
+private/
+backups/
+.env*
+node_modules/
+design/
+docs/
+tests/
+playwright-report/
+test-results/
+*.log
+*.sqlite*
+*.db
+*.tsbuildinfo
+.DS_Store

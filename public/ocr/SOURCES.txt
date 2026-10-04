@@ -1,0 +1,1 @@
+Tesseract.js worker and Tesseract.js-core: Apache-2.0. Language data: tesseract.js-data 4.0.0_best_int (eng, chi_sim), Apache-2.0; https://github.com/naptha/tessdata . Bundled locally so OCR does not depend on a third-party CDN at learning time.

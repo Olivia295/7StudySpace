@@ -1,0 +1,2036 @@
+[
+  {
+    "word": "analysis",
+    "example": "Our analysis revealed that most deliveries arrived before noon.",
+    "exampleMeaning": "我们的分析显示，大多数货物在中午之前送达。"
+  },
+  {
+    "word": "insight",
+    "example": "The interview offered an insight into how the bakery operates.",
+    "exampleMeaning": "这次访谈让人了解到这家面包店是如何运营的。"
+  },
+  {
+    "word": "infer",
+    "example": "From the muddy footprints, we can infer that someone entered through the garden.",
+    "exampleMeaning": "从泥脚印可以推断，有人从花园进来了。"
+  },
+  {
+    "word": "impact",
+    "example": "The new bus route had a noticeable impact on morning traffic.",
+    "exampleMeaning": "新公交线路对早高峰交通产生了明显影响。"
+  },
+  {
+    "word": "proportion",
+    "example": "A large proportion of the town's residents work at the port.",
+    "exampleMeaning": "镇上很大一部分居民在港口工作。"
+  },
+  {
+    "word": "innovation",
+    "example": "The exhibition traces a century of innovation in bicycle design.",
+    "exampleMeaning": "这次展览回顾了自行车设计一个世纪以来的创新。"
+  },
+  {
+    "word": "individual",
+    "example": "Each individual in the group received a different set of instructions.",
+    "exampleMeaning": "组里的每个人都收到了一套不同的指示。"
+  },
+  {
+    "word": "diversity",
+    "example": "The market reflects the diversity of the surrounding neighbourhood.",
+    "exampleMeaning": "这个市场体现了周边社区的多样性。"
+  },
+  {
+    "word": "explore",
+    "example": "We hired bicycles to explore the narrow streets near the river.",
+    "exampleMeaning": "我们租了自行车，去探索河边的狭窄街道。"
+  },
+  {
+    "word": "sustain",
+    "example": "The small reservoir cannot sustain the village through another dry summer.",
+    "exampleMeaning": "这个小水库无法维持村庄再度过一个干旱的夏天。"
+  },
+  {
+    "word": "local",
+    "example": "The café buys its vegetables from local farms.",
+    "exampleMeaning": "这家咖啡馆从当地农场采购蔬菜。"
+  },
+  {
+    "word": "sex",
+    "example": "The form asks for the animal's age and sex.",
+    "exampleMeaning": "这张表要求填写动物的年龄和性别。"
+  },
+  {
+    "word": "site",
+    "example": "Archaeologists found pieces of pottery at the construction site.",
+    "exampleMeaning": "考古学家在建筑工地发现了陶器碎片。"
+  },
+  {
+    "word": "hell",
+    "example": "According to the old tale, the gates led down to hell.",
+    "exampleMeaning": "按照那个古老传说，这些大门通往地狱。"
+  },
+  {
+    "word": "kill",
+    "example": "A sudden frost can kill these delicate plants overnight.",
+    "exampleMeaning": "突如其来的霜冻可能一夜之间冻死这些娇嫩的植物。"
+  },
+  {
+    "word": "release",
+    "example": "The team plans to release the updated map next week.",
+    "exampleMeaning": "团队计划下周发布更新后的地图。"
+  },
+  {
+    "word": "super",
+    "example": "You did a super job restoring that old wooden chair.",
+    "exampleMeaning": "你把那把旧木椅修复得非常出色。"
+  },
+  {
+    "word": "link",
+    "example": "The email contains a link to the full event programme.",
+    "exampleMeaning": "邮件中有一个链接，可以查看完整的活动安排。"
+  },
+  {
+    "word": "movement",
+    "example": "The camera detected a slight movement behind the curtains.",
+    "exampleMeaning": "摄像机察觉到窗帘后面有轻微的动静。"
+  },
+  {
+    "word": "unit",
+    "example": "The metre is the standard unit of length used here.",
+    "exampleMeaning": "这里使用的标准长度单位是米。"
+  },
+  {
+    "word": "stupid",
+    "example": "Leaving the windows open during the storm was a stupid mistake.",
+    "exampleMeaning": "暴风雨期间没关窗是个愚蠢的错误。",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "愚蠢的；欠考虑的"
+    }
+  },
+  {
+    "word": "multiple",
+    "example": "The museum offers audio guides in multiple languages.",
+    "exampleMeaning": "这家博物馆提供多种语言的语音导览。",
+    "correction": {
+      "pos": "adj.; n.",
+      "meaning": "adj. 多个的；多种的；n. 倍数"
+    }
+  },
+  {
+    "word": "anyway",
+    "example": "The forecast predicted rain, but we went hiking anyway.",
+    "exampleMeaning": "天气预报说会下雨，但我们还是去徒步了。"
+  },
+  {
+    "word": "literally",
+    "example": "The sign literally means that no vehicles may enter.",
+    "exampleMeaning": "这个标志的字面意思是任何车辆都不得进入。"
+  },
+  {
+    "word": "christian",
+    "example": "The gallery displays Christian art from several different centuries.",
+    "exampleMeaning": "画廊展出了来自几个不同世纪的基督教艺术作品。"
+  },
+  {
+    "word": "murder",
+    "example": "The detective novel begins with a murder at a seaside hotel.",
+    "exampleMeaning": "这部侦探小说以一家海滨旅馆发生的谋杀案开篇。"
+  },
+  {
+    "word": "queen",
+    "example": "The queen greeted the crowd from the palace balcony.",
+    "exampleMeaning": "女王在宫殿阳台上向人群致意。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "女王；王后；蜂后；（国际象棋中的）后"
+    }
+  },
+  {
+    "word": "prior",
+    "example": "No prior experience is required for this pottery workshop.",
+    "exampleMeaning": "参加这个陶艺工作坊不需要任何相关经验。"
+  },
+  {
+    "word": "religious",
+    "example": "Visitors should respect the religious customs observed inside the temple.",
+    "exampleMeaning": "游客应尊重寺庙内遵循的宗教习俗。"
+  },
+  {
+    "word": "royal",
+    "example": "The royal gardens open to the public every spring.",
+    "exampleMeaning": "皇家花园每年春天向公众开放。"
+  },
+  {
+    "word": "screen",
+    "example": "A small crack appeared in the corner of my phone screen.",
+    "exampleMeaning": "我的手机屏幕角落出现了一条小裂纹。"
+  },
+  {
+    "word": "mostly",
+    "example": "The audience consisted mostly of people from nearby villages.",
+    "exampleMeaning": "观众主要是附近村庄的居民。",
+    "correction": {
+      "pos": "adv.",
+      "meaning": "主要地；大多；通常"
+    }
+  },
+  {
+    "word": "surface",
+    "example": "Tiny bubbles rose to the surface of the pond.",
+    "exampleMeaning": "小气泡升到了池塘水面。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "表面；水面；地面"
+    }
+  },
+  {
+    "word": "estate",
+    "example": "She left most of her estate to a wildlife charity.",
+    "exampleMeaning": "她把大部分遗产留给了一家野生动物慈善机构。"
+  },
+  {
+    "word": "profile",
+    "example": "The artist drew the child's profile in a few confident strokes.",
+    "exampleMeaning": "画家用几笔流畅的线条勾勒出孩子的侧脸。"
+  },
+  {
+    "word": "sexual",
+    "example": "The biology chapter compares sexual reproduction with other forms of reproduction.",
+    "exampleMeaning": "这一章生物课文比较了有性生殖与其他繁殖方式。"
+  },
+  {
+    "word": "institute",
+    "example": "The research institute has opened a laboratory near the coast.",
+    "exampleMeaning": "这家研究所在海岸附近开设了一个实验室。"
+  },
+  {
+    "word": "negative",
+    "example": "The committee gave a negative response to the proposal.",
+    "exampleMeaning": "委员会对这项提案作出了否定答复。",
+    "correction": {
+      "pos": "adj.; n.",
+      "meaning": "adj. 否定的；负面的；负数的；n. 否定答复；底片"
+    }
+  },
+  {
+    "word": "setting",
+    "example": "The quiet mountain village provides the setting for the novel.",
+    "exampleMeaning": "这部小说以一座宁静的山村为背景。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "背景；环境；设置"
+    }
+  },
+  {
+    "word": "net",
+    "example": "A fishing net hung from a hook outside the shed.",
+    "exampleMeaning": "一张渔网挂在棚屋外的钩子上。",
+    "correction": {
+      "pos": "n.; adj.; v.",
+      "meaning": "n. 网；球网；adj. 净的；扣除成本后的；v. 用网捕；净赚"
+    }
+  },
+  {
+    "word": "vehicle",
+    "example": "Only one vehicle can cross this narrow bridge at a time.",
+    "exampleMeaning": "这座窄桥每次只能容许一辆车通过。"
+  },
+  {
+    "word": "frank",
+    "example": "We had a frank discussion about why the project was delayed.",
+    "exampleMeaning": "我们坦率地讨论了项目延期的原因。"
+  },
+  {
+    "word": "violence",
+    "example": "The march ended peacefully, with no reports of violence.",
+    "exampleMeaning": "游行和平结束，没有暴力事件的报告。"
+  },
+  {
+    "word": "core",
+    "example": "The geologist examined a rock core taken from beneath the lake.",
+    "exampleMeaning": "地质学家检查了一段从湖底提取的岩心。"
+  },
+  {
+    "word": "initial",
+    "example": "Our initial estimate was too low because we overlooked transport costs.",
+    "exampleMeaning": "我们最初的估算太低，因为漏算了运输费用。",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "最初的；开始的"
+    }
+  },
+  {
+    "word": "regional",
+    "example": "The regional newspaper covers events in several nearby towns.",
+    "exampleMeaning": "这家地区性报纸报道附近几个镇的新闻。"
+  },
+  {
+    "word": "zone",
+    "example": "Drivers must slow down before entering the school zone.",
+    "exampleMeaning": "驾驶员进入学校区域前必须减速。"
+  },
+  {
+    "word": "advanced",
+    "example": "The laboratory uses advanced equipment to examine tiny fragments of stone.",
+    "exampleMeaning": "实验室使用先进设备检查微小的石块碎片。",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "先进的；高级的；高等的"
+    }
+  },
+  {
+    "word": "joint",
+    "example": "The two colleges announced a joint programme in environmental science.",
+    "exampleMeaning": "两所学院宣布联合开设一个环境科学项目。"
+  },
+  {
+    "word": "steel",
+    "example": "The bridge rests on six enormous steel columns.",
+    "exampleMeaning": "这座桥由六根巨大的钢柱支撑。"
+  },
+  {
+    "word": "supporting",
+    "example": "Engineers inspected the supporting beams beneath the old theatre.",
+    "exampleMeaning": "工程师检查了老剧院底部的支撑梁。"
+  },
+  {
+    "word": "labour",
+    "example": "Harvesting these steep vineyards requires a great deal of manual labour.",
+    "exampleMeaning": "在这些陡坡葡萄园里采收需要大量人工劳动。"
+  },
+  {
+    "word": "proof",
+    "example": "Keep your receipt as proof that you purchased the tickets.",
+    "exampleMeaning": "请保留收据，作为你购买了门票的证明。"
+  },
+  {
+    "word": "survey",
+    "example": "A recent survey asked residents how often they used the library.",
+    "exampleMeaning": "最近一项调查询问了居民使用图书馆的频率。",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "n. 调查；测量；概述；v. 调查；勘测；审视"
+    }
+  },
+  {
+    "word": "user",
+    "example": "Each user can choose whether to receive weekly reminders.",
+    "exampleMeaning": "每位用户都可以选择是否接收每周提醒。"
+  },
+  {
+    "word": "platform",
+    "example": "We waited on the platform while the last passengers left the train.",
+    "exampleMeaning": "最后几名乘客下车时，我们在站台上等候。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "站台；平台；讲台"
+    }
+  },
+  {
+    "word": "liberal",
+    "example": "Her parents held liberal views about how children should dress.",
+    "exampleMeaning": "她的父母在孩子该如何穿着的问题上持开明态度。"
+  },
+  {
+    "word": "studio",
+    "example": "Morning light fills the artist's studio through its tall windows.",
+    "exampleMeaning": "晨光透过高大的窗户洒满了艺术家的工作室。"
+  },
+  {
+    "word": "chain",
+    "example": "The bicycle chain slipped off as I climbed the hill.",
+    "exampleMeaning": "我骑车上坡时，自行车链条掉了。",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "n. 链条；一连串；连锁店；v. 用链条拴住"
+    }
+  },
+  {
+    "word": "finance",
+    "example": "A local grant will finance repairs to the community swimming pool.",
+    "exampleMeaning": "一笔当地拨款将用于支付社区游泳池的维修费用。"
+  },
+  {
+    "word": "specifically",
+    "example": "These gloves were designed specifically for handling hot glass.",
+    "exampleMeaning": "这些手套是专为接触热玻璃而设计的。"
+  },
+  {
+    "word": "mode",
+    "example": "Switch the camera to manual mode before adjusting the exposure.",
+    "exampleMeaning": "调整曝光之前，请把相机切换到手动模式。"
+  },
+  {
+    "word": "giant",
+    "example": "A giant wave swept over the harbour wall.",
+    "exampleMeaning": "一个巨浪越过了港口防波堤。"
+  },
+  {
+    "word": "selection",
+    "example": "The shop stocks a small selection of locally made soaps.",
+    "exampleMeaning": "这家店出售少量精选的本地手工皂。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "选择；挑选；精选物；可供选择的一组事物"
+    }
+  },
+  {
+    "word": "suicide",
+    "example": "The charity trains volunteers to support families affected by suicide.",
+    "exampleMeaning": "这家慈善机构培训志愿者，为受自杀事件影响的家庭提供支持。"
+  },
+  {
+    "word": "creative",
+    "example": "The chef found a creative way to use leftover bread.",
+    "exampleMeaning": "厨师想出了一个利用剩面包的创意方法。"
+  },
+  {
+    "word": "threat",
+    "example": "Rising sea levels pose a threat to low-lying coastal towns.",
+    "exampleMeaning": "海平面上升对地势低洼的沿海城镇构成威胁。"
+  },
+  {
+    "word": "universe",
+    "example": "The telescope helps scientists study the early history of the universe.",
+    "exampleMeaning": "这台望远镜帮助科学家研究宇宙的早期历史。"
+  },
+  {
+    "word": "random",
+    "example": "We selected a random sample of fifty envelopes for inspection.",
+    "exampleMeaning": "我们随机抽取了五十个信封进行检查。",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "随机的；无规则的；随意的"
+    }
+  },
+  {
+    "word": "academy",
+    "example": "She joined a music academy to study classical guitar.",
+    "exampleMeaning": "她进入一所音乐学院学习古典吉他。"
+  },
+  {
+    "word": "category",
+    "example": "Please place each photograph in the category that best describes it.",
+    "exampleMeaning": "请把每张照片放入最能描述其内容的类别。"
+  },
+  {
+    "word": "index",
+    "example": "The index at the back lists every plant mentioned in the book.",
+    "exampleMeaning": "书后的索引列出了书中提到的每一种植物。"
+  },
+  {
+    "word": "shift",
+    "example": "My evening shift starts just as the café gets busy.",
+    "exampleMeaning": "我的晚班恰好在咖啡馆开始忙碌时开始。"
+  },
+  {
+    "word": "storage",
+    "example": "The bench has a useful storage compartment beneath the seat.",
+    "exampleMeaning": "长凳的座位下方有一个实用的储物空间。"
+  },
+  {
+    "word": "weekly",
+    "example": "The village holds a weekly market in the main square.",
+    "exampleMeaning": "村庄每周在主广场举办一次集市。"
+  },
+  {
+    "word": "depression",
+    "example": "The economic depression forced several factories in the region to close.",
+    "exampleMeaning": "经济萧条迫使该地区的几家工厂关闭。"
+  },
+  {
+    "word": "mining",
+    "example": "The museum explains how mining shaped the town's early growth.",
+    "exampleMeaning": "博物馆介绍了采矿业如何影响这个镇早期的发展。"
+  },
+  {
+    "word": "personnel",
+    "example": "Only trained personnel are allowed inside the control room.",
+    "exampleMeaning": "只有受过培训的人员才能进入控制室。"
+  },
+  {
+    "word": "tournament",
+    "example": "Eight teams will compete in the weekend basketball tournament.",
+    "exampleMeaning": "八支球队将参加周末的篮球锦标赛。"
+  },
+  {
+    "word": "victim",
+    "example": "The victim of the theft reported the missing bicycle immediately.",
+    "exampleMeaning": "盗窃案的受害者立即报告了自行车失窃一事。"
+  },
+  {
+    "word": "catholic",
+    "example": "Her catholic taste in music ranges from folk songs to experimental jazz.",
+    "exampleMeaning": "她的音乐品味十分广泛，从民谣到实验爵士乐都有涉猎。",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "广泛的；兼收并蓄的；（大写 Catholic）天主教的"
+    }
+  },
+  {
+    "word": "maintenance",
+    "example": "The lift will be closed tomorrow morning for routine maintenance.",
+    "exampleMeaning": "电梯明天上午将暂停使用，进行例行维护。"
+  },
+  {
+    "word": "origin",
+    "example": "Researchers are still debating the origin of this unusual custom.",
+    "exampleMeaning": "研究人员仍在争论这一独特习俗的起源。"
+  },
+  {
+    "word": "significantly",
+    "example": "The new insulation has significantly reduced our winter heating costs.",
+    "exampleMeaning": "新的隔热材料显著降低了我们冬季的取暖费用。"
+  },
+  {
+    "word": "worldwide",
+    "example": "The film's worldwide release brought the small studio unexpected attention.",
+    "exampleMeaning": "这部电影在全球上映，让这家小制片厂获得了意想不到的关注。"
+  },
+  {
+    "word": "peak",
+    "example": "We reached the mountain peak just before sunrise.",
+    "exampleMeaning": "我们在日出前不久到达了山顶。"
+  },
+  {
+    "word": "portion",
+    "example": "The waiter brought a generous portion of roasted vegetables.",
+    "exampleMeaning": "服务员端来了一大份烤蔬菜。"
+  },
+  {
+    "word": "protein",
+    "example": "The label lists how much protein each serving contains.",
+    "exampleMeaning": "标签列出了每份食物所含的蛋白质量。"
+  },
+  {
+    "word": "secondary",
+    "example": "Price was a secondary concern; we needed a quiet room.",
+    "exampleMeaning": "价格是次要考虑因素；我们需要一间安静的房间。",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "次要的；中等教育的；第二位的"
+    }
+  },
+  {
+    "word": "battery",
+    "example": "My camera battery ran out halfway through the boat trip.",
+    "exampleMeaning": "乘船游览进行到一半时，我的相机电池没电了。"
+  },
+  {
+    "word": "brief",
+    "example": "After a brief pause, the orchestra began the final movement.",
+    "exampleMeaning": "短暂停顿后，乐团开始演奏最后一个乐章。"
+  },
+  {
+    "word": "chest",
+    "example": "The runner wore a small number badge on her chest.",
+    "exampleMeaning": "这位女跑者胸前佩戴着一个小号码牌。"
+  },
+  {
+    "word": "introduction",
+    "example": "The book offers a clear introduction to the principles of photography.",
+    "exampleMeaning": "这本书清楚地介绍了摄影的基本原理。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "介绍；引言；入门介绍；引进"
+    }
+  },
+  {
+    "word": "aim",
+    "example": "Our aim is to finish painting before the furniture arrives.",
+    "exampleMeaning": "我们的目标是在家具送来之前完成粉刷。"
+  },
+  {
+    "word": "clinical",
+    "example": "The report presents the results of a small clinical trial.",
+    "exampleMeaning": "这份报告介绍了一项小规模临床试验的结果。"
+  },
+  {
+    "word": "recording",
+    "example": "The recording captures birdsong and the distant sound of church bells.",
+    "exampleMeaning": "这段录音记录了鸟鸣和远处教堂的钟声。"
+  },
+  {
+    "word": "convention",
+    "example": "Hundreds of booksellers attended the annual publishing convention.",
+    "exampleMeaning": "数百名书商参加了年度出版业大会。"
+  },
+  {
+    "word": "outstanding",
+    "example": "The judges praised the outstanding quality of the handmade instruments.",
+    "exampleMeaning": "评委们称赞了这些手工乐器的卓越品质。"
+  },
+  {
+    "word": "colour",
+    "example": "We chose a warm yellow colour for the kitchen walls.",
+    "exampleMeaning": "我们为厨房墙壁选了一种温暖的黄色。"
+  },
+  {
+    "word": "hunt",
+    "example": "Owls often hunt at night when small mammals are active.",
+    "exampleMeaning": "猫头鹰常在小型哺乳动物活跃的夜间捕猎。"
+  },
+  {
+    "word": "auto",
+    "example": "The old auto repair shop now houses a bicycle workshop.",
+    "exampleMeaning": "那家旧汽车修理店如今成了一间自行车工坊。"
+  },
+  {
+    "word": "grey",
+    "example": "A grey cat watched us from the garden wall.",
+    "exampleMeaning": "一只灰猫蹲在花园围墙上看着我们。"
+  },
+  {
+    "word": "meanwhile",
+    "example": "The soup simmered on the stove; meanwhile, I sliced the bread.",
+    "exampleMeaning": "汤在炉上慢炖；与此同时，我把面包切成了片。"
+  },
+  {
+    "word": "rape",
+    "example": "The centre provides confidential support for survivors of rape.",
+    "exampleMeaning": "这个中心为强奸事件的幸存者提供保密的支持服务。"
+  },
+  {
+    "word": "bone",
+    "example": "The museum displays a dinosaur bone discovered in a nearby quarry.",
+    "exampleMeaning": "博物馆展出了一块在附近采石场发现的恐龙骨骼。"
+  },
+  {
+    "word": "circuit",
+    "example": "A broken wire prevented electricity from flowing through the circuit.",
+    "exampleMeaning": "一根断掉的电线使电流无法通过电路。"
+  },
+  {
+    "word": "province",
+    "example": "The northern province is famous for its lakes and pine forests.",
+    "exampleMeaning": "北部的这个省以湖泊和松林闻名。"
+  },
+  {
+    "word": "assessment",
+    "example": "The engineer completed a detailed assessment of the damaged roof.",
+    "exampleMeaning": "工程师对受损屋顶进行了详细评估。"
+  },
+  {
+    "word": "element",
+    "example": "Trust is a crucial element in any successful partnership.",
+    "exampleMeaning": "信任是任何成功合作关系中的关键要素。"
+  },
+  {
+    "word": "loose",
+    "example": "One loose screw made the entire shelf wobble.",
+    "exampleMeaning": "一颗松动的螺丝让整个架子晃动起来。"
+  },
+  {
+    "word": "moral",
+    "example": "The story's moral is that appearances can be misleading.",
+    "exampleMeaning": "这个故事的寓意是，外表可能具有迷惑性。",
+    "correction": {
+      "pos": "adj.; n.",
+      "meaning": "adj. 道德上的；有道德的；n. 寓意；教训"
+    }
+  },
+  {
+    "word": "processing",
+    "example": "The factory uses less water during the processing of raw cotton.",
+    "exampleMeaning": "这家工厂在加工原棉的过程中用水更少。"
+  },
+  {
+    "word": "anxiety",
+    "example": "Knowing the interview schedule helped ease some of her anxiety.",
+    "exampleMeaning": "了解面试安排后，她的焦虑有所缓解。"
+  },
+  {
+    "word": "bonus",
+    "example": "Free bicycle parking was an unexpected bonus at the hotel.",
+    "exampleMeaning": "酒店的免费自行车停车位是一项意外之喜。"
+  },
+  {
+    "word": "enforcement",
+    "example": "Residents asked for stricter enforcement of the existing noise rules.",
+    "exampleMeaning": "居民要求更严格地执行现行噪声管理规定。"
+  },
+  {
+    "word": "formula",
+    "example": "The spreadsheet uses a simple formula to calculate the total cost.",
+    "exampleMeaning": "电子表格用一个简单公式计算总费用。"
+  },
+  {
+    "word": "palace",
+    "example": "The palace courtyard was shaded by rows of orange trees.",
+    "exampleMeaning": "宫殿庭院里，一排排橙树投下了树荫。"
+  },
+  {
+    "word": "legend",
+    "example": "According to local legend, a hidden tunnel runs beneath the castle.",
+    "exampleMeaning": "根据当地传说，城堡下面有一条隐秘的地道。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "传说；传奇人物；图例"
+    }
+  },
+  {
+    "word": "muscle",
+    "example": "The model shows how each muscle connects to the surrounding bones.",
+    "exampleMeaning": "这个模型展示了每块肌肉如何与周围的骨骼连接。"
+  },
+  {
+    "word": "replacement",
+    "example": "The shop ordered a replacement for the cracked glass lid.",
+    "exampleMeaning": "商店订购了一个新玻璃盖，以替换那个开裂的盖子。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "替代者；替代物；更换"
+    }
+  },
+  {
+    "word": "commitment",
+    "example": "The council renewed its commitment to keeping the public pool open.",
+    "exampleMeaning": "市政委员会再次承诺让公共游泳池继续开放。"
+  },
+  {
+    "word": "grounds",
+    "example": "Visitors may walk through the palace grounds until sunset.",
+    "exampleMeaning": "游客可以在日落前游览宫殿园区。"
+  },
+  {
+    "word": "label",
+    "example": "Read the label before putting the sweater in the washing machine.",
+    "exampleMeaning": "把毛衣放进洗衣机之前，先看一下标签。"
+  },
+  {
+    "word": "strategic",
+    "example": "The town's strategic location made it a busy trading centre.",
+    "exampleMeaning": "这个镇地理位置重要，因此成为了繁忙的贸易中心。"
+  },
+  {
+    "word": "racist",
+    "example": "The club removed racist comments from its public discussion page.",
+    "exampleMeaning": "俱乐部删除了公开讨论页面上的种族歧视言论。"
+  },
+  {
+    "word": "suck",
+    "example": "The pump can suck water out of the flooded basement.",
+    "exampleMeaning": "这台泵能把被淹地下室里的水抽出去。"
+  },
+  {
+    "word": "comfort",
+    "example": "The thick cushions add comfort to the otherwise hard wooden bench.",
+    "exampleMeaning": "厚垫子让原本硬邦邦的木长凳坐起来更舒适。"
+  },
+  {
+    "word": "deck",
+    "example": "We stood on the upper deck as the ferry left the harbour.",
+    "exampleMeaning": "渡轮离港时，我们站在上层甲板上。"
+  },
+  {
+    "word": "dragon",
+    "example": "A painted dragon winds around the outside of the ceramic bowl.",
+    "exampleMeaning": "一条彩绘的龙盘绕在陶碗外壁上。"
+  },
+  {
+    "word": "promotion",
+    "example": "Her promotion to branch manager meant moving to another city.",
+    "exampleMeaning": "她升任分店经理后，需要搬到另一座城市。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "晋升；促销；推广"
+    }
+  },
+  {
+    "word": "dean",
+    "example": "The dean welcomed the new students at the opening ceremony.",
+    "exampleMeaning": "院长在开学典礼上欢迎新生。"
+  },
+  {
+    "word": "layer",
+    "example": "Spread a thin layer of butter over the warm toast.",
+    "exampleMeaning": "在热吐司上涂一层薄薄的黄油。"
+  },
+  {
+    "word": "potentially",
+    "example": "The discovery could potentially change how the ruins are dated.",
+    "exampleMeaning": "这项发现可能会改变确定这些遗址年代的方法。"
+  },
+  {
+    "word": "visible",
+    "example": "The lighthouse remained visible even after the coastline disappeared into mist.",
+    "exampleMeaning": "海岸线消失在雾中后，灯塔依然清晰可见。"
+  },
+  {
+    "word": "amendment",
+    "example": "The committee approved an amendment allowing members to vote online.",
+    "exampleMeaning": "委员会通过了一项修正案，允许成员在线投票。"
+  },
+  {
+    "word": "mill",
+    "example": "The old water mill once supplied flour to the entire valley.",
+    "exampleMeaning": "这座旧水磨坊曾为整个山谷供应面粉。"
+  },
+  {
+    "word": "pope",
+    "example": "The history book describes how the pope influenced medieval European politics.",
+    "exampleMeaning": "这本历史书描述了教皇如何影响中世纪欧洲政治。"
+  },
+  {
+    "word": "alleged",
+    "example": "The newspaper investigated alleged irregularities in the construction contract.",
+    "exampleMeaning": "报社调查了这份建筑合同中据称存在的违规问题。"
+  },
+  {
+    "word": "currency",
+    "example": "We exchanged a little currency before leaving the airport.",
+    "exampleMeaning": "离开机场前，我们兑换了少量货币。"
+  },
+  {
+    "word": "sword",
+    "example": "The museum's oldest sword lay inside a carefully lit display case.",
+    "exampleMeaning": "博物馆中最古老的剑放在一个精心布光的展柜里。"
+  },
+  {
+    "word": "automatic",
+    "example": "The automatic doors opened as we approached the station entrance.",
+    "exampleMeaning": "我们走近车站入口时，自动门打开了。"
+  },
+  {
+    "word": "extraordinary",
+    "example": "The tiny bird travelled an extraordinary distance across the ocean.",
+    "exampleMeaning": "这只小鸟跨越海洋，飞过了令人惊叹的距离。"
+  },
+  {
+    "word": "residence",
+    "example": "The former mayor's residence has been converted into a public gallery.",
+    "exampleMeaning": "前市长的住宅已改建为公共美术馆。"
+  },
+  {
+    "word": "strip",
+    "example": "A narrow strip of grass separates the pavement from the road.",
+    "exampleMeaning": "一条狭窄的草地将人行道与车道隔开。"
+  },
+  {
+    "word": "gorgeous",
+    "example": "We found a gorgeous little courtyard behind the crowded market.",
+    "exampleMeaning": "我们在拥挤的市场后面发现了一个非常漂亮的小庭院。"
+  },
+  {
+    "word": "poll",
+    "example": "An online poll asked readers to choose the magazine's next cover.",
+    "exampleMeaning": "一项网络投票请读者选择杂志的下一期封面。"
+  },
+  {
+    "word": "removal",
+    "example": "The removal of the old fence opened up the garden view.",
+    "exampleMeaning": "旧围栏拆除后，花园的视野开阔了。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "移除；搬迁；免职"
+    }
+  },
+  {
+    "word": "rob",
+    "example": "In the film, two thieves plan to rob an empty bank.",
+    "exampleMeaning": "在这部电影里，两名小偷计划抢劫一家空无一人的银行。"
+  },
+  {
+    "word": "virgin",
+    "example": "The hikers crossed virgin snow that covered the high mountain pass.",
+    "exampleMeaning": "徒步者穿过了高山隘口上无人踩过的新雪。"
+  },
+  {
+    "word": "agricultural",
+    "example": "The fair displays agricultural machinery alongside locally grown produce.",
+    "exampleMeaning": "这个展会同时展示农业机械和本地农产品。"
+  },
+  {
+    "word": "bull",
+    "example": "A brown bull stood quietly behind the farm gate.",
+    "exampleMeaning": "一头棕色公牛静静地站在农场大门后面。"
+  },
+  {
+    "word": "contribution",
+    "example": "Her contribution paid for new lights in the community hall.",
+    "exampleMeaning": "她的捐款支付了社区礼堂安装新灯具的费用。"
+  },
+  {
+    "word": "liberty",
+    "example": "The exhibition explores the struggle for liberty through historical posters.",
+    "exampleMeaning": "这次展览通过历史海报呈现了争取自由的历程。"
+  },
+  {
+    "word": "progressive",
+    "example": "The school became known for its progressive approach to classroom teaching.",
+    "exampleMeaning": "这所学校因其先进的课堂教学方式而闻名。"
+  },
+  {
+    "word": "representation",
+    "example": "The new committee gives smaller clubs better representation in league decisions.",
+    "exampleMeaning": "新的委员会让小俱乐部在联赛决策中获得了更多代表权。"
+  },
+  {
+    "word": "swing",
+    "example": "The children took turns pushing each other on the swing.",
+    "exampleMeaning": "孩子们轮流推着彼此荡秋千。"
+  },
+  {
+    "word": "commit",
+    "example": "The detective must discover who had a reason to commit the crime.",
+    "exampleMeaning": "侦探必须查明谁有实施这起犯罪的动机。"
+  },
+  {
+    "word": "infection",
+    "example": "The veterinarian examined the dog's ear for signs of infection.",
+    "exampleMeaning": "兽医检查了狗的耳朵，看看是否有感染迹象。"
+  },
+  {
+    "word": "participation",
+    "example": "The festival depends on the active participation of local residents.",
+    "exampleMeaning": "这个节日有赖于当地居民的积极参与。"
+  },
+  {
+    "word": "premium",
+    "example": "The café charges a small premium for its rare imported tea.",
+    "exampleMeaning": "这种稀有的进口茶在咖啡馆里售价略高一些。",
+    "correction": {
+      "pos": "n.; adj.",
+      "meaning": "n. 额外费用；保险费；溢价；adj. 优质的；高价的"
+    }
+  },
+  {
+    "word": "prominent",
+    "example": "A prominent sign near the entrance explains the recycling rules.",
+    "exampleMeaning": "入口附近一块醒目的标牌说明了回收规则。"
+  },
+  {
+    "word": "substantial",
+    "example": "Renovating the roof will require a substantial amount of money.",
+    "exampleMeaning": "翻修屋顶需要一笔可观的费用。",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "大量的；可观的；实质性的"
+    }
+  },
+  {
+    "word": "legislative",
+    "example": "The report outlines the legislative changes proposed by the committee.",
+    "exampleMeaning": "这份报告概述了委员会提出的立法调整。"
+  },
+  {
+    "word": "murdered",
+    "example": "The novel follows a reporter investigating the life of a murdered artist.",
+    "exampleMeaning": "这部小说讲述了一名记者调查一位被谋杀艺术家生平的故事。"
+  },
+  {
+    "word": "tissue",
+    "example": "She used a tissue to wipe rain from her glasses.",
+    "exampleMeaning": "她用纸巾擦掉了眼镜上的雨水。"
+  },
+  {
+    "word": "arranged",
+    "example": "The documentary examines how attitudes towards arranged marriages have changed.",
+    "exampleMeaning": "这部纪录片探讨了人们对包办婚姻的态度如何发生变化。"
+  },
+  {
+    "word": "dynamic",
+    "example": "The exhibition features work by a dynamic group of young sculptors.",
+    "exampleMeaning": "展览展出了一个充满活力的青年雕塑家群体的作品。",
+    "correction": {
+      "pos": "adj.; n.",
+      "meaning": "adj. 充满活力的；动态的；n. 推动力；作用方式"
+    }
+  },
+  {
+    "word": "packed",
+    "example": "The bus was so packed that we waited for the next one.",
+    "exampleMeaning": "这辆公交车太挤了，我们便等下一辆。"
+  },
+  {
+    "word": "relation",
+    "example": "The study examines the relation between street lighting and pedestrian activity.",
+    "exampleMeaning": "这项研究考察了街道照明与行人活动之间的关系。"
+  },
+  {
+    "word": "stability",
+    "example": "The wide base gives the tall lamp extra stability.",
+    "exampleMeaning": "宽大的底座让这盏高灯更加稳固。"
+  },
+  {
+    "word": "craft",
+    "example": "The course introduces the traditional craft of wooden boat building.",
+    "exampleMeaning": "这门课程介绍了传统的木船制作技艺。"
+  },
+  {
+    "word": "edit",
+    "example": "Could you edit the final paragraph before we print the newsletter?",
+    "exampleMeaning": "我们印制简报前，你能修改一下最后一段吗？"
+  },
+  {
+    "word": "hardware",
+    "example": "The shop sells basic hardware, including hinges, screws, and door handles.",
+    "exampleMeaning": "这家店出售合页、螺丝和门把手等基本五金用品。"
+  },
+  {
+    "word": "shield",
+    "example": "The transparent shield protects the operator from flying fragments.",
+    "exampleMeaning": "透明防护罩保护操作人员免受飞溅碎片伤害。"
+  },
+  {
+    "word": "slide",
+    "example": "The new playground has a slide shaped like a lighthouse.",
+    "exampleMeaning": "新游乐场有一个形似灯塔的滑梯。"
+  },
+  {
+    "word": "accounting",
+    "example": "She handles the accounting for a small family restaurant.",
+    "exampleMeaning": "她负责一家小型家庭餐馆的会计工作。"
+  },
+  {
+    "word": "celebration",
+    "example": "Neighbours gathered for a celebration when the community garden finally opened.",
+    "exampleMeaning": "社区花园终于开放时，邻居们聚在一起庆祝。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "庆祝；庆典"
+    }
+  },
+  {
+    "word": "clay",
+    "example": "The potter pressed a pattern into the soft clay.",
+    "exampleMeaning": "陶艺师在柔软的黏土上压出了花纹。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "黏土；陶土"
+    }
+  },
+  {
+    "word": "interaction",
+    "example": "The workshop encouraged interaction between musicians and visual artists.",
+    "exampleMeaning": "这个工作坊促进了音乐家与视觉艺术家之间的交流。"
+  },
+  {
+    "word": "collaboration",
+    "example": "The mural grew out of a collaboration between students and local artists.",
+    "exampleMeaning": "这幅壁画由学生与当地艺术家合作创作。"
+  },
+  {
+    "word": "con",
+    "example": "The promised free holiday turned out to be a con.",
+    "exampleMeaning": "承诺的免费度假结果是个骗局。",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "n. 骗局；反对意见；v. 欺骗"
+    }
+  },
+  {
+    "word": "dual",
+    "example": "The building serves a dual purpose as a library and meeting hall.",
+    "exampleMeaning": "这座建筑同时用作图书馆和会议厅。"
+  },
+  {
+    "word": "filter",
+    "example": "Dust had collected on the filter inside the air conditioner.",
+    "exampleMeaning": "空调内部的过滤网上积了灰尘。"
+  },
+  {
+    "word": "galaxy",
+    "example": "Through the telescope, the distant galaxy appeared as a faint spiral.",
+    "exampleMeaning": "透过望远镜，遥远的星系呈现出朦胧的螺旋形。"
+  },
+  {
+    "word": "peaceful",
+    "example": "We spent a peaceful afternoon reading beside the lake.",
+    "exampleMeaning": "我们在湖边读书，度过了一个宁静的下午。"
+  },
+  {
+    "word": "acceptable",
+    "example": "The repair looks neat, and the final cost is acceptable.",
+    "exampleMeaning": "修理后的样子很整齐，最终费用也可以接受。"
+  },
+  {
+    "word": "chaos",
+    "example": "A power failure caused chaos at the busy railway station.",
+    "exampleMeaning": "一次停电让繁忙的火车站陷入混乱。"
+  },
+  {
+    "word": "copper",
+    "example": "The old copper kettle had developed a greenish coating.",
+    "exampleMeaning": "那把旧铜水壶表面形成了一层淡绿色的铜锈。"
+  },
+  {
+    "word": "margin",
+    "example": "She wrote a short question in the margin beside the diagram.",
+    "exampleMeaning": "她在图旁的页边空白处写下了一个简短的问题。"
+  },
+  {
+    "word": "mechanism",
+    "example": "A tiny spring controls the locking mechanism inside the box.",
+    "exampleMeaning": "盒内一根细小的弹簧控制着锁定装置。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "机制；机械装置；运作方式"
+    }
+  },
+  {
+    "word": "opera",
+    "example": "The theatre will stage a new opera about life at sea.",
+    "exampleMeaning": "剧院将上演一部关于海上生活的新歌剧。"
+  },
+  {
+    "word": "pit",
+    "example": "Workers dug a shallow pit before planting the young tree.",
+    "exampleMeaning": "工人们先挖了一个浅坑，然后栽下小树。"
+  },
+  {
+    "word": "sized",
+    "example": "Cut the carrots into evenly sized pieces so they cook together.",
+    "exampleMeaning": "把胡萝卜切成大小均匀的块，这样它们能同时煮熟。"
+  },
+  {
+    "word": "acquisition",
+    "example": "The museum's latest acquisition is a handwritten map of the old harbour.",
+    "exampleMeaning": "博物馆最新收藏的是一幅旧港口的手绘地图。"
+  },
+  {
+    "word": "conspiracy",
+    "example": "The thriller centres on a conspiracy to steal a priceless manuscript.",
+    "exampleMeaning": "这部惊悚小说围绕一场盗取无价手稿的阴谋展开。"
+  },
+  {
+    "word": "spectrum",
+    "example": "A prism separates white light into a spectrum of colours.",
+    "exampleMeaning": "棱镜将白光分解成一道彩色光谱。"
+  },
+  {
+    "word": "brick",
+    "example": "A loose brick near the doorway needed to be replaced.",
+    "exampleMeaning": "门口附近一块松动的砖需要更换。"
+  },
+  {
+    "word": "trigger",
+    "example": "Opening the emergency door will trigger an alarm throughout the building.",
+    "exampleMeaning": "打开紧急出口的门会触发整栋楼的警报。"
+  },
+  {
+    "word": "abortion",
+    "example": "The documentary includes interviews with doctors who provide abortion care.",
+    "exampleMeaning": "这部纪录片收录了对提供人工流产医疗服务的医生的访谈。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "流产，尤指人工流产"
+    }
+  },
+  {
+    "word": "exclusively",
+    "example": "The upstairs room is reserved exclusively for private meetings.",
+    "exampleMeaning": "楼上的房间专供不对外开放的会议使用。"
+  },
+  {
+    "word": "modified",
+    "example": "The modified design includes a wider doorway and lower shelves.",
+    "exampleMeaning": "修改后的设计包括更宽的门口和更低的架子。"
+  },
+  {
+    "word": "pat",
+    "example": "She gave the dog a gentle pat before opening the gate.",
+    "exampleMeaning": "她轻轻拍了拍狗，然后打开了门。"
+  },
+  {
+    "word": "pussy",
+    "example": "The child called the sleepy cat a little pussy.",
+    "exampleMeaning": "孩子把那只困倦的猫叫作小猫咪。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "猫咪（旧式或儿语用法）"
+    }
+  },
+  {
+    "word": "spy",
+    "example": "The spy hid a coded message inside an ordinary shopping list.",
+    "exampleMeaning": "间谍把一条加密信息藏在一张普通的购物清单里。"
+  },
+  {
+    "word": "suspension",
+    "example": "Heavy snow led to the temporary suspension of all mountain bus services.",
+    "exampleMeaning": "大雪导致所有山区公交服务暂时停运。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "暂停；停职；悬挂；悬架"
+    }
+  },
+  {
+    "word": "casual",
+    "example": "The invitation suggests casual clothes and comfortable shoes.",
+    "exampleMeaning": "邀请函建议穿休闲服装和舒适的鞋子。"
+  },
+  {
+    "word": "civilian",
+    "example": "The former military pilot found work as a civilian flight instructor.",
+    "exampleMeaning": "这位前军方飞行员找到了一份民用飞行教员的工作。",
+    "correction": {
+      "pos": "n.; adj.",
+      "meaning": "n. 平民；adj. 平民的；民用的"
+    }
+  },
+  {
+    "word": "invasion",
+    "example": "The history exhibition examines the invasion through letters written by local residents.",
+    "exampleMeaning": "这次历史展览通过当地居民的书信考察那场入侵。"
+  },
+  {
+    "word": "pole",
+    "example": "A red flag fluttered at the top of the wooden pole.",
+    "exampleMeaning": "木杆顶端飘扬着一面红旗。"
+  },
+  {
+    "word": "reception",
+    "example": "Leave your room key at reception when you check out.",
+    "exampleMeaning": "退房时，请把房间钥匙留在前台。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "接待处；接待；欢迎；接收"
+    }
+  },
+  {
+    "word": "syndrome",
+    "example": "The lecture described the symptoms associated with this rare syndrome.",
+    "exampleMeaning": "这场讲座介绍了与这种罕见综合征相关的症状。"
+  },
+  {
+    "word": "usage",
+    "example": "The chart compares monthly water usage across three apartment buildings.",
+    "exampleMeaning": "这张图表比较了三栋公寓楼每月的用水量。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "使用；使用量；用法"
+    }
+  },
+  {
+    "word": "bearing",
+    "example": "The mechanic replaced a worn bearing inside the front wheel.",
+    "exampleMeaning": "机械师更换了前轮内部一个磨损的轴承。"
+  },
+  {
+    "word": "bin",
+    "example": "Please put empty bottles in the recycling bin beside the door.",
+    "exampleMeaning": "请把空瓶子放进门边的回收箱。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "箱；垃圾桶；储物容器"
+    }
+  },
+  {
+    "word": "integration",
+    "example": "The integration of the two booking systems took several months.",
+    "exampleMeaning": "整合这两个预订系统花了几个月时间。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "整合；融合；一体化"
+    }
+  },
+  {
+    "word": "integrity",
+    "example": "Her professional integrity led her to report the error immediately.",
+    "exampleMeaning": "她出于职业操守，立即报告了这个错误。"
+  },
+  {
+    "word": "interpretation",
+    "example": "The director's interpretation of the play gives more attention to minor characters.",
+    "exampleMeaning": "导演对这部戏的演绎更加关注次要角色。"
+  },
+  {
+    "word": "legitimate",
+    "example": "Residents have legitimate concerns about traffic near the new school.",
+    "exampleMeaning": "居民对新学校附近的交通状况有合理的担忧。"
+  },
+  {
+    "word": "reserves",
+    "example": "The survey identified copper reserves beneath the eastern side of the hill.",
+    "exampleMeaning": "勘测发现山丘东侧下方有铜矿储量。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "储备；储量；后备力量"
+    }
+  },
+  {
+    "word": "arc",
+    "example": "The fountain sent an arc of water over the stone basin.",
+    "exampleMeaning": "喷泉喷出的水流在石池上方形成一道弧线。"
+  },
+  {
+    "word": "duck",
+    "example": "A duck paddled across the pond with six ducklings following behind.",
+    "exampleMeaning": "一只鸭子划过池塘，身后跟着六只小鸭。"
+  },
+  {
+    "word": "ken",
+    "example": "The details of ancient navigation are beyond my ken.",
+    "exampleMeaning": "古代航海的细节超出了我的知识范围。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "知识范围；理解范围"
+    }
+  },
+  {
+    "word": "manufacturer",
+    "example": "The manufacturer supplies spare parts for models no longer in production.",
+    "exampleMeaning": "这家制造商为已经停产的型号供应备件。"
+  },
+  {
+    "word": "operational",
+    "example": "The new ferry terminal should be fully operational by early summer.",
+    "exampleMeaning": "新的渡轮码头预计将在初夏全面投入运营。"
+  },
+  {
+    "word": "vulnerable",
+    "example": "Young trees are particularly vulnerable to damage from strong winds.",
+    "exampleMeaning": "幼树特别容易受到强风的损害。"
+  },
+  {
+    "word": "dose",
+    "example": "The pharmacist wrote the prescribed dose clearly on the label.",
+    "exampleMeaning": "药剂师把处方规定的剂量清楚地写在了标签上。"
+  },
+  {
+    "word": "hated",
+    "example": "The widely hated parking fee was removed after months of complaints.",
+    "exampleMeaning": "那项广受厌恶的停车费在数月投诉后被取消了。"
+  },
+  {
+    "word": "loyal",
+    "example": "Several loyal customers helped the bookshop move to its new premises.",
+    "exampleMeaning": "几位忠实顾客帮助书店搬到了新店址。"
+  },
+  {
+    "word": "opponent",
+    "example": "She shook hands with her opponent before the tennis match began.",
+    "exampleMeaning": "网球比赛开始前，她与对手握了手。"
+  },
+  {
+    "word": "punk",
+    "example": "The band mixes punk with traditional folk instruments.",
+    "exampleMeaning": "这支乐队将朋克音乐与传统民间乐器结合起来。"
+  },
+  {
+    "word": "yoga",
+    "example": "The community centre holds a yoga class on Saturday mornings.",
+    "exampleMeaning": "社区中心每周六上午开设瑜伽课。"
+  },
+  {
+    "word": "coastal",
+    "example": "The coastal path passes fishing villages and several sheltered beaches.",
+    "exampleMeaning": "这条海岸步道途经渔村和几片避风的海滩。"
+  },
+  {
+    "word": "commentary",
+    "example": "The radio commentary helped us follow the match during the drive.",
+    "exampleMeaning": "开车途中，我们通过广播解说了解了比赛进展。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "评论；解说；评注"
+    }
+  },
+  {
+    "word": "mar",
+    "example": "A deep scratch can mar the finish of a wooden table.",
+    "exampleMeaning": "一道深划痕会损坏木桌表面的涂层。",
+    "correction": {
+      "pos": "v.",
+      "meaning": "损坏；破坏；使有缺陷"
+    }
+  },
+  {
+    "word": "ram",
+    "example": "The farmer kept the ram in a field beside the barn.",
+    "exampleMeaning": "农夫把公羊养在谷仓旁的一块田地里。"
+  },
+  {
+    "word": "sandy",
+    "example": "We followed a sandy track down to the beach.",
+    "exampleMeaning": "我们沿着一条沙土小径走向海滩。",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "多沙的；沙质的；沙色的"
+    }
+  },
+  {
+    "word": "classification",
+    "example": "The guide explains the classification of clouds by their shape and height.",
+    "exampleMeaning": "这本指南解释了如何按照形状和高度给云分类。"
+  },
+  {
+    "word": "liver",
+    "example": "The anatomy diagram shows the liver just below the diaphragm.",
+    "exampleMeaning": "这张解剖图显示，肝脏位于膈膜下方。"
+  },
+  {
+    "word": "structural",
+    "example": "The engineer checked the old bridge for signs of structural damage.",
+    "exampleMeaning": "工程师检查了旧桥是否存在结构损伤。"
+  },
+  {
+    "word": "suite",
+    "example": "Our hotel suite had a small kitchen and a separate sitting room.",
+    "exampleMeaning": "我们的酒店套房有一个小厨房和一间独立的起居室。"
+  },
+  {
+    "word": "adoption",
+    "example": "The shelter arranged an adoption event for cats needing new homes.",
+    "exampleMeaning": "收容所为需要新家的猫举办了一场领养活动。"
+  },
+  {
+    "word": "aviation",
+    "example": "The museum's aviation collection includes engines from early passenger aircraft.",
+    "exampleMeaning": "博物馆的航空藏品包括早期客机的发动机。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "航空；飞行"
+    }
+  },
+  {
+    "word": "cinema",
+    "example": "The old cinema still shows films on a single enormous screen.",
+    "exampleMeaning": "这家老电影院仍然只用一块巨大的银幕放映电影。"
+  },
+  {
+    "word": "colonial",
+    "example": "The walking tour examines buildings from the city's colonial past.",
+    "exampleMeaning": "这次徒步导览介绍了这座城市殖民时期留下的建筑。"
+  },
+  {
+    "word": "loyalty",
+    "example": "The team thanked its fans for their loyalty during a difficult season.",
+    "exampleMeaning": "球队感谢球迷在这个艰难赛季中始终不离不弃。"
+  },
+  {
+    "word": "magnetic",
+    "example": "A magnetic strip keeps the cupboard door firmly closed.",
+    "exampleMeaning": "一条磁条让柜门牢牢闭合。"
+  },
+  {
+    "word": "notion",
+    "example": "The experiment challenged the notion that all metals behave in the same way.",
+    "exampleMeaning": "这项实验质疑了所有金属表现都相同的观念。"
+  },
+  {
+    "word": "propaganda",
+    "example": "The exhibition shows how wartime propaganda used simple images and slogans.",
+    "exampleMeaning": "这次展览展示了战时政治宣传如何运用简单的图像和口号。"
+  },
+  {
+    "word": "simultaneously",
+    "example": "The two screens display the same scene from different angles simultaneously.",
+    "exampleMeaning": "两块屏幕同时从不同角度展示同一个场景。"
+  },
+  {
+    "word": "acceptance",
+    "example": "The new recycling scheme gained acceptance after a successful trial.",
+    "exampleMeaning": "新的回收方案试行成功后获得了认可。"
+  },
+  {
+    "word": "casino",
+    "example": "The former casino has been converted into a concert hall.",
+    "exampleMeaning": "原来的赌场已改建为音乐厅。"
+  },
+  {
+    "word": "perceived",
+    "example": "The survey measures the perceived safety of different cycling routes.",
+    "exampleMeaning": "这项调查衡量人们对不同骑行路线安全性的感受。",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "感知到的；被认为的"
+    }
+  },
+  {
+    "word": "rocky",
+    "example": "We walked carefully along the rocky shore at low tide.",
+    "exampleMeaning": "退潮时，我们小心地沿着多岩石的海岸行走。"
+  },
+  {
+    "word": "satisfaction",
+    "example": "She felt a quiet satisfaction when the repaired clock began ticking again.",
+    "exampleMeaning": "修好的钟重新滴答作响时，她心里感到一阵平静的满足。"
+  },
+  {
+    "word": "spirits",
+    "example": "The menu lists wine and spirits on a separate page.",
+    "exampleMeaning": "菜单把葡萄酒和烈酒单独列在一页上。"
+  },
+  {
+    "word": "sporting",
+    "example": "The park hosts several sporting events throughout the summer.",
+    "exampleMeaning": "整个夏季，公园会举办几场体育赛事。"
+  },
+  {
+    "word": "ion",
+    "example": "The diagram shows a sodium ion surrounded by water molecules.",
+    "exampleMeaning": "这张图展示了一个被水分子包围的钠离子。"
+  },
+  {
+    "word": "par",
+    "example": "The final product is on par with much more expensive models.",
+    "exampleMeaning": "这款成品的品质与贵得多的型号相当。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "标准；同等水平；（高尔夫球的）标准杆数"
+    }
+  },
+  {
+    "word": "productivity",
+    "example": "Better tools increased productivity without extending the workers' shifts.",
+    "exampleMeaning": "更好的工具提高了生产效率，同时没有延长工人的班次。"
+  },
+  {
+    "word": "awake",
+    "example": "I was still awake when the first birds began singing.",
+    "exampleMeaning": "第一批鸟开始鸣叫时，我还醒着。"
+  },
+  {
+    "word": "horn",
+    "example": "The guide pointed out the curved horn of the mountain goat.",
+    "exampleMeaning": "导游指给我们看了那只山羊弯曲的角。"
+  },
+  {
+    "word": "motivated",
+    "example": "The volunteers remained motivated despite several delays in opening the garden.",
+    "exampleMeaning": "尽管花园开放数次延期，志愿者们依然充满干劲。",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "有积极性的；有动力的"
+    }
+  },
+  {
+    "word": "patrol",
+    "example": "A beach patrol checked the shoreline after the storm.",
+    "exampleMeaning": "一支海滩巡逻队在风暴过后检查了海岸线。"
+  },
+  {
+    "word": "pile",
+    "example": "A pile of clean towels waited beside the changing rooms.",
+    "exampleMeaning": "更衣室旁放着一摞干净毛巾。"
+  },
+  {
+    "word": "rod",
+    "example": "The curtains hang from a metal rod above the window.",
+    "exampleMeaning": "窗帘挂在窗户上方的一根金属杆上。"
+  },
+  {
+    "word": "teenage",
+    "example": "The library runs a summer photography club for teenage residents.",
+    "exampleMeaning": "图书馆为当地青少年开设了一个暑期摄影俱乐部。"
+  },
+  {
+    "word": "consultant",
+    "example": "The restaurant hired a consultant to review its kitchen layout.",
+    "exampleMeaning": "餐馆聘请了一位顾问来评估厨房布局。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "顾问；专科医生"
+    }
+  },
+  {
+    "word": "manufactured",
+    "example": "The display compares natural stone with manufactured materials used in modern kitchens.",
+    "exampleMeaning": "这个展区比较了天然石材与现代厨房所用的人造材料。"
+  },
+  {
+    "word": "prospect",
+    "example": "The prospect of a quieter commute made the new job appealing.",
+    "exampleMeaning": "新工作的通勤可能更清静，这让它很有吸引力。"
+  },
+  {
+    "word": "publisher",
+    "example": "The publisher asked the illustrator to design a new cover.",
+    "exampleMeaning": "出版商请插画师设计一个新封面。"
+  },
+  {
+    "word": "rookie",
+    "example": "The rookie scored twice in her first professional basketball game.",
+    "exampleMeaning": "这名新秀在首场职业篮球比赛中两次得分。"
+  },
+  {
+    "word": "separation",
+    "example": "A low wooden fence provides some separation between the two gardens.",
+    "exampleMeaning": "一道低矮的木围栏在两座花园之间起到了分隔作用。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "分离；分隔；分开"
+    }
+  },
+  {
+    "word": "sexually",
+    "example": "The chapter explains why some organisms reproduce sexually and others do not.",
+    "exampleMeaning": "这一章解释了为什么有些生物进行有性生殖，而另一些则不然。",
+    "correction": {
+      "pos": "adv.",
+      "meaning": "在性方面；通过有性生殖"
+    }
+  },
+  {
+    "word": "valve",
+    "example": "Turn the small valve to stop water entering the tank.",
+    "exampleMeaning": "转动这个小阀门，就能停止向水箱进水。"
+  },
+  {
+    "word": "banner",
+    "example": "A colourful banner above the entrance announced the spring festival.",
+    "exampleMeaning": "入口上方一条色彩鲜艳的横幅宣告着春季庆典的到来。"
+  },
+  {
+    "word": "dive",
+    "example": "We watched the swimmers dive into the pool one after another.",
+    "exampleMeaning": "我们看着游泳者接连跳入泳池。"
+  },
+  {
+    "word": "excessive",
+    "example": "The machine shuts down automatically if it detects excessive heat.",
+    "exampleMeaning": "如果检测到过热，机器就会自动停机。"
+  },
+  {
+    "word": "interface",
+    "example": "The app's simple interface makes the main controls easy to find.",
+    "exampleMeaning": "这款应用的界面简洁，主要控制按钮很容易找到。"
+  },
+  {
+    "word": "ace",
+    "example": "The tennis player won the final point with an ace.",
+    "exampleMeaning": "这位网球选手凭一记发球直接得分，赢下了最后一分。"
+  },
+  {
+    "word": "adjusted",
+    "example": "The adjusted timetable allows ten more minutes for changing trains.",
+    "exampleMeaning": "调整后的时刻表多留了十分钟用于换乘。"
+  },
+  {
+    "word": "babe",
+    "example": "The tale opens with a babe asleep in a wooden cradle.",
+    "exampleMeaning": "故事开篇，一个婴儿正在木摇篮里熟睡。"
+  },
+  {
+    "word": "drum",
+    "example": "A single drum kept the beat as the dancers entered.",
+    "exampleMeaning": "舞者入场时，一面鼓独自打着节拍。",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "n. 鼓；圆桶；v. 击鼓；连续敲击"
+    }
+  },
+  {
+    "word": "handful",
+    "example": "She sprinkled a handful of chopped herbs over the soup.",
+    "exampleMeaning": "她往汤上撒了一把切碎的香草。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "一把；少数；难管的人或难处理的事"
+    }
+  },
+  {
+    "word": "keyboard",
+    "example": "I spilled a few drops of tea on my keyboard.",
+    "exampleMeaning": "我把几滴茶洒到了键盘上。"
+  },
+  {
+    "word": "pathetic",
+    "example": "The old torch gave off a pathetic little beam of light.",
+    "exampleMeaning": "那只旧手电筒发出了一束微弱得可怜的光。"
+  },
+  {
+    "word": "restoration",
+    "example": "The restoration revealed bright colours beneath centuries of dirt.",
+    "exampleMeaning": "修复工作让积尘数百年下的鲜艳色彩重现。"
+  },
+  {
+    "word": "silk",
+    "example": "The scarf is made of silk woven by a small local workshop.",
+    "exampleMeaning": "这条围巾用的是当地一家小工坊织造的丝绸。"
+  },
+  {
+    "word": "belly",
+    "example": "The puppy rolled onto its back, showing its round belly.",
+    "exampleMeaning": "小狗翻过身仰面躺下，露出圆滚滚的肚子。"
+  },
+  {
+    "word": "consensus",
+    "example": "After discussing three designs, the group reached a consensus on the simplest one.",
+    "exampleMeaning": "讨论了三个设计后，大家一致选定了最简单的那个。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "共识；一致意见"
+    }
+  },
+  {
+    "word": "distinction",
+    "example": "The guide makes a clear distinction between public paths and private roads.",
+    "exampleMeaning": "指南清楚地区分了公共步道与私人道路。"
+  },
+  {
+    "word": "fig",
+    "example": "A ripe fig had fallen from the tree beside the gate.",
+    "exampleMeaning": "门边树上掉下了一颗熟透的无花果。"
+  },
+  {
+    "word": "ore",
+    "example": "The railway once carried iron ore from the hills to the harbour.",
+    "exampleMeaning": "这条铁路曾将山里的铁矿石运往港口。"
+  },
+  {
+    "word": "unlimited",
+    "example": "The ticket offers unlimited travel on local buses for one day.",
+    "exampleMeaning": "这张票允许在一天内无限次乘坐当地公交车。"
+  },
+  {
+    "word": "cult",
+    "example": "The historian studied a cult devoted to an ancient sea god.",
+    "exampleMeaning": "这位历史学家研究了一个崇拜古代海神的宗教团体。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "宗教崇拜；崇拜团体；狂热追随"
+    }
+  },
+  {
+    "word": "darling",
+    "example": "Come inside, darling, before the rain gets any heavier.",
+    "exampleMeaning": "亲爱的，快进屋吧，趁雨还没下得更大。"
+  },
+  {
+    "word": "drill",
+    "example": "The carpenter used a drill to make holes for the shelf brackets.",
+    "exampleMeaning": "木匠用钻机打孔，以安装搁板支架。"
+  },
+  {
+    "word": "recommendation",
+    "example": "We chose the small guesthouse on a friend's recommendation.",
+    "exampleMeaning": "我们听了一位朋友的推荐，选择了那家小旅馆。"
+  },
+  {
+    "word": "skull",
+    "example": "The fossil skull helped scientists estimate the size of the animal's brain.",
+    "exampleMeaning": "这块头骨化石帮助科学家估算了这种动物的大脑大小。"
+  },
+  {
+    "word": "anticipated",
+    "example": "The anticipated delivery date appears at the top of your receipt.",
+    "exampleMeaning": "预计送达日期显示在收据顶部。"
+  },
+  {
+    "word": "basin",
+    "example": "Several rivers flow through the broad basin between the mountains.",
+    "exampleMeaning": "几条河流穿过群山之间宽阔的盆地。"
+  },
+  {
+    "word": "fairy",
+    "example": "In the story, a fairy hides a silver key inside a flower.",
+    "exampleMeaning": "故事里，一个小精灵把银钥匙藏进了一朵花中。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "（童话中的）小仙子；小精灵"
+    }
+  },
+  {
+    "word": "grief",
+    "example": "Friends brought meals to the family during their time of grief.",
+    "exampleMeaning": "朋友们在这家人悲痛的时候送来了饭菜。"
+  },
+  {
+    "word": "hub",
+    "example": "The old railway station has become a hub for local bus services.",
+    "exampleMeaning": "旧火车站已成为当地公交服务的枢纽。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "枢纽；中心；轮毂"
+    }
+  },
+  {
+    "word": "lodge",
+    "example": "We stayed in a small mountain lodge overlooking the valley.",
+    "exampleMeaning": "我们住在一间可以俯瞰山谷的小型山间旅馆。",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "n. 小屋；乡间旅馆；v. 寄宿；提出（申诉等）"
+    }
+  },
+  {
+    "word": "merit",
+    "example": "The committee considered each proposal on its own merit.",
+    "exampleMeaning": "委员会根据各项提案本身的优点逐一进行评估。"
+  },
+  {
+    "word": "myth",
+    "example": "An ancient myth explains why the island's mountains seem to sleep.",
+    "exampleMeaning": "一个古老神话解释了为什么岛上的山看起来像在沉睡。"
+  },
+  {
+    "word": "variation",
+    "example": "There is considerable variation in the colour of these wildflowers.",
+    "exampleMeaning": "这些野花的颜色存在相当大的差异。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "变化；差异；变体"
+    }
+  },
+  {
+    "word": "warehouse",
+    "example": "The company stores spare bicycle parts in a warehouse near the docks.",
+    "exampleMeaning": "公司把自行车备件存放在码头附近的一个仓库里。",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "n. 仓库；v. 把……存入仓库"
+    }
+  },
+  {
+    "word": "administrator",
+    "example": "Contact the course administrator if you need to change your workshop date.",
+    "exampleMeaning": "如果需要更改工作坊日期，请联系课程管理员。"
+  },
+  {
+    "word": "excellence",
+    "example": "The annual award recognises excellence in the restoration of historic buildings.",
+    "exampleMeaning": "这个年度奖项表彰历史建筑修复方面的卓越成就。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "卓越；优秀；出色"
+    }
+  },
+  {
+    "word": "matrix",
+    "example": "Arrange the numbers in a matrix with three rows and four columns.",
+    "exampleMeaning": "把这些数字排列成一个三行四列的矩阵。"
+  },
+  {
+    "word": "measuring",
+    "example": "Careful measuring before cutting helped us avoid wasting the expensive fabric.",
+    "exampleMeaning": "裁剪前的仔细测量帮助我们避免浪费昂贵的布料。"
+  },
+  {
+    "word": "momentum",
+    "example": "The campaign gained momentum after several local businesses offered their support.",
+    "exampleMeaning": "几家当地企业表示支持后，这场活动的发展势头更强了。"
+  },
+  {
+    "word": "nomination",
+    "example": "Her first novel received a nomination for a national literary award.",
+    "exampleMeaning": "她的第一部小说获得了一个全国文学奖的提名。"
+  },
+  {
+    "word": "supporter",
+    "example": "A longtime supporter donated new equipment to the sailing club.",
+    "exampleMeaning": "一位长期支持者向帆船俱乐部捐赠了新设备。"
+  },
+  {
+    "word": "detection",
+    "example": "The new sensor allows earlier detection of leaks inside the pipes.",
+    "exampleMeaning": "新传感器能更早发现管道内部的泄漏。"
+  },
+  {
+    "word": "fiber",
+    "example": "The rope is made from a tough natural fiber.",
+    "exampleMeaning": "这根绳子由一种坚韧的天然纤维制成。"
+  },
+  {
+    "word": "northeast",
+    "example": "A cold wind blew steadily from the northeast.",
+    "exampleMeaning": "一股冷风持续从东北方向吹来。"
+  },
+  {
+    "word": "politically",
+    "example": "The historian explains why the railway project became politically controversial.",
+    "exampleMeaning": "这位历史学家解释了铁路项目为何引发政治争议。"
+  },
+  {
+    "word": "realm",
+    "example": "The novel moves gradually from everyday life into the realm of fantasy.",
+    "exampleMeaning": "这部小说逐渐从日常生活转入幻想世界。"
+  },
+  {
+    "word": "specified",
+    "example": "Please return the equipment by the date specified in your booking confirmation.",
+    "exampleMeaning": "请在预订确认中注明的日期前归还设备。"
+  },
+  {
+    "word": "streak",
+    "example": "A bright streak of sunlight fell across the wooden floor.",
+    "exampleMeaning": "一缕明亮的阳光洒在木地板上。"
+  },
+  {
+    "word": "subscription",
+    "example": "My magazine subscription includes access to the online archive.",
+    "exampleMeaning": "我订阅这份杂志后，还能访问它的在线资料库。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "订阅；订购；订阅费"
+    }
+  },
+  {
+    "word": "technological",
+    "example": "The exhibition traces technological changes in printing over two centuries.",
+    "exampleMeaning": "这次展览回顾了两个世纪以来印刷技术的变化。"
+  },
+  {
+    "word": "buzz",
+    "example": "The quiet buzz of the refrigerator was the only sound in the kitchen.",
+    "exampleMeaning": "冰箱轻微的嗡嗡声是厨房里唯一的声音。"
+  },
+  {
+    "word": "graph",
+    "example": "The graph shows how rainfall varied over the last twelve months.",
+    "exampleMeaning": "这张图表显示了过去十二个月降雨量的变化。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "图表；曲线图"
+    }
+  },
+  {
+    "word": "mobility",
+    "example": "The entrance has a ramp for visitors with limited mobility.",
+    "exampleMeaning": "入口设有坡道，方便行动不便的访客使用。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "活动能力；移动能力；流动性"
+    }
+  },
+  {
+    "word": "orientation",
+    "example": "Rotate the page to change its orientation from portrait to landscape.",
+    "exampleMeaning": "旋转页面，把纵向布局改成横向布局。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "方向；定位；迎新介绍"
+    }
+  },
+  {
+    "word": "proceeds",
+    "example": "All proceeds from the concert will help repair the village hall.",
+    "exampleMeaning": "音乐会的全部收入都将用于帮助修缮村庄礼堂。"
+  },
+  {
+    "word": "rhythm",
+    "example": "The dancers moved in time with the rhythm of the drums.",
+    "exampleMeaning": "舞者随着鼓点的节奏舞动。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "节奏；韵律"
+    }
+  },
+  {
+    "word": "stance",
+    "example": "The council changed its stance on night markets after consulting residents.",
+    "exampleMeaning": "咨询居民后，市政委员会改变了对夜市的立场。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "立场；姿态；站姿"
+    }
+  },
+  {
+    "word": "static",
+    "example": "The map is static, so it cannot show current traffic conditions.",
+    "exampleMeaning": "这张地图是静态的，因此无法显示实时路况。"
+  },
+  {
+    "word": "supportive",
+    "example": "Her colleagues were supportive when she proposed trying a different approach.",
+    "exampleMeaning": "当她提出尝试另一种方法时，同事们表示支持。"
+  },
+  {
+    "word": "tablet",
+    "example": "The pharmacist showed her the name printed on the tablet packet.",
+    "exampleMeaning": "药剂师指给她看药片包装上印着的名称。"
+  },
+  {
+    "word": "blonde",
+    "example": "She tied her blonde hair back before starting the pottery class.",
+    "exampleMeaning": "开始上陶艺课前，她把金发扎了起来。"
+  },
+  {
+    "word": "collar",
+    "example": "A small embroidered flower decorated the collar of the linen shirt.",
+    "exampleMeaning": "亚麻衬衫的衣领上点缀着一朵小绣花。"
+  },
+  {
+    "word": "intermediate",
+    "example": "This intermediate course assumes that you can already read simple sheet music.",
+    "exampleMeaning": "这门中级课程要求学员已经能够读懂简单的乐谱。"
+  },
+  {
+    "word": "placement",
+    "example": "The placement of the windows lets afternoon sunlight reach the workbench.",
+    "exampleMeaning": "窗户的位置让午后的阳光能够照到工作台。"
+  },
+  {
+    "word": "questioning",
+    "example": "Her questioning look suggested that the explanation had left something unclear.",
+    "exampleMeaning": "她疑惑的神情表明，刚才的解释还有不清楚的地方。"
+  },
+  {
+    "word": "yelling",
+    "example": "The yelling from the playground faded as the children went indoors.",
+    "exampleMeaning": "孩子们进入室内后，操场上的叫喊声渐渐消失了。"
+  },
+  {
+    "word": "cease",
+    "example": "The machines will cease operating while the safety inspection takes place.",
+    "exampleMeaning": "安全检查期间，这些机器将停止运转。",
+    "correction": {
+      "pos": "v.",
+      "meaning": "停止；终止"
+    }
+  },
+  {
+    "word": "kidney",
+    "example": "The model shows where each kidney sits in the human body.",
+    "exampleMeaning": "这个模型展示了人体两侧肾脏各自所处的位置。",
+    "correction": {
+      "pos": "n.",
+      "meaning": "肾；肾脏"
+    }
+  },
+  {
+    "word": "mob",
+    "example": "A restless mob gathered outside the courthouse as the verdict approached.",
+    "exampleMeaning": "宣判临近时，一群躁动不安的人聚集在法院外。",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "n. 一群喧闹或激动的人；暴民；v. 围住；蜂拥而上"
+    }
+  },
+  {
+    "word": "navigation",
+    "example": "The boat's navigation system stopped working when its battery failed.",
+    "exampleMeaning": "电池出故障后，船上的导航系统停止了工作。"
+  },
+  {
+    "word": "peninsula",
+    "example": "A narrow road runs along the peninsula to the lighthouse.",
+    "exampleMeaning": "一条窄路沿着半岛通向灯塔。"
+  },
+  {
+    "word": "supplement",
+    "example": "The weekend newspaper includes a supplement devoted to gardening.",
+    "exampleMeaning": "周末报纸附有一份专门介绍园艺的副刊。",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "n. 补充物；副刊；补编；v. 补充"
+    }
+  },
+  {
+    "word": "altered",
+    "example": "The altered design leaves more space around the kitchen table.",
+    "exampleMeaning": "修改后的设计为餐桌周围留出了更多空间。"
+  },
+  {
+    "word": "anchor",
+    "example": "The captain lowered the anchor in a sheltered part of the bay.",
+    "exampleMeaning": "船长在海湾一处避风的地方放下了锚。"
+  },
+  {
+    "word": "arch",
+    "example": "We passed under a stone arch into the quiet courtyard.",
+    "exampleMeaning": "我们穿过一道石拱门，走进安静的庭院。",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "n. 拱；拱门；拱形；v. 拱起"
+    }
+  },
+  {
+    "word": "cannon",
+    "example": "An old cannon stands beside the entrance to the coastal fort.",
+    "exampleMeaning": "一门旧火炮立在海岸堡垒的入口旁。"
+  }
+]

@@ -1,0 +1,1248 @@
+[
+  {
+    "word": "order",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "顺序；命令；订单；订购；命令"
+    }
+  },
+  {
+    "word": "face",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "脸；表面；面对，正视"
+    }
+  },
+  {
+    "word": "working",
+    "correction": {
+      "pos": "adj.; n.",
+      "meaning": "工作的；运转中的；工作方式"
+    }
+  },
+  {
+    "word": "information",
+    "correction": {
+      "pos": "n.",
+      "meaning": "信息；消息；资料"
+    }
+  },
+  {
+    "word": "hit",
+    "correction": {
+      "pos": "v.; n.",
+      "meaning": "击中；碰撞；热门作品"
+    }
+  },
+  {
+    "word": "series",
+    "correction": {
+      "pos": "n.",
+      "meaning": "一系列；系列节目；丛书"
+    }
+  },
+  {
+    "word": "period",
+    "correction": {
+      "pos": "n.",
+      "meaning": "一段时间；时期；句号"
+    }
+  },
+  {
+    "word": "source",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "来源；源头；获取"
+    }
+  },
+  {
+    "word": "trade",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "贸易；交易；交换"
+    }
+  },
+  {
+    "word": "sleep",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "睡眠；睡觉"
+    }
+  },
+  {
+    "word": "rock",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "岩石；摇滚乐；摇晃"
+    }
+  },
+  {
+    "word": "pressure",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "压力；施加压力"
+    }
+  },
+  {
+    "word": "sale",
+    "correction": {
+      "pos": "n.",
+      "meaning": "出售；销售；特价销售"
+    }
+  },
+  {
+    "word": "material",
+    "correction": {
+      "pos": "n.; adj.",
+      "meaning": "材料；资料；物质的；重要的"
+    }
+  },
+  {
+    "word": "stock",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "库存；股票；储备；备有货物"
+    }
+  },
+  {
+    "word": "spring",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "春天；泉水；弹簧；跳跃"
+    }
+  },
+  {
+    "word": "queen",
+    "correction": {
+      "pos": "n.",
+      "meaning": "女王；王后；国际象棋中的后"
+    }
+  },
+  {
+    "word": "actual",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "实际的；真实的"
+    }
+  },
+  {
+    "word": "sad",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "难过的；令人伤心的"
+    }
+  },
+  {
+    "word": "surface",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "表面；露出水面；浮现"
+    }
+  },
+  {
+    "word": "basis",
+    "correction": {
+      "pos": "n.",
+      "meaning": "基础；根据"
+    }
+  },
+  {
+    "word": "rise",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "上升；增长；升起"
+    }
+  },
+  {
+    "word": "setting",
+    "correction": {
+      "pos": "n.",
+      "meaning": "环境；背景；设置"
+    }
+  },
+  {
+    "word": "horse",
+    "correction": {
+      "pos": "n.",
+      "meaning": "马"
+    }
+  },
+  {
+    "word": "variety",
+    "correction": {
+      "pos": "n.",
+      "meaning": "多样性；种类；品种"
+    }
+  },
+  {
+    "word": "core",
+    "correction": {
+      "pos": "n.; adj.",
+      "meaning": "核心；果核；核心的"
+    }
+  },
+  {
+    "word": "platform",
+    "correction": {
+      "pos": "n.",
+      "meaning": "平台；站台；讲台"
+    }
+  },
+  {
+    "word": "hole",
+    "correction": {
+      "pos": "n.",
+      "meaning": "洞；孔；漏洞"
+    }
+  },
+  {
+    "word": "trading",
+    "correction": {
+      "pos": "n.",
+      "meaning": "买卖；交易"
+    }
+  },
+  {
+    "word": "rent",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "租金；租用；出租"
+    }
+  },
+  {
+    "word": "pocket",
+    "correction": {
+      "pos": "n.",
+      "meaning": "口袋；小片区域"
+    }
+  },
+  {
+    "word": "legend",
+    "correction": {
+      "pos": "n.",
+      "meaning": "传说；传奇人物；图例"
+    }
+  },
+  {
+    "word": "sheet",
+    "correction": {
+      "pos": "n.",
+      "meaning": "薄片；纸张；床单"
+    }
+  },
+  {
+    "word": "refuse",
+    "correction": {
+      "pos": "v.; n.",
+      "meaning": "拒绝；不愿接受；垃圾，废弃物"
+    }
+  },
+  {
+    "word": "nerve",
+    "correction": {
+      "pos": "n.",
+      "meaning": "神经；勇气；胆量"
+    }
+  },
+  {
+    "word": "trace",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "痕迹；微量；追踪；查找"
+    }
+  },
+  {
+    "word": "basement",
+    "correction": {
+      "pos": "n.",
+      "meaning": "地下室"
+    }
+  },
+  {
+    "word": "lens",
+    "correction": {
+      "pos": "n.",
+      "meaning": "镜片；透镜；镜头"
+    }
+  },
+  {
+    "word": "determination",
+    "correction": {
+      "pos": "n.",
+      "meaning": "决心；确定；测定"
+    }
+  },
+  {
+    "word": "par",
+    "correction": {
+      "pos": "n.",
+      "meaning": "通常水平；标准杆数；票面价值"
+    }
+  },
+  {
+    "word": "separation",
+    "correction": {
+      "pos": "n.",
+      "meaning": "分离；分开；分隔"
+    }
+  },
+  {
+    "word": "ridge",
+    "correction": {
+      "pos": "n.",
+      "meaning": "山脊；隆起的狭长部分"
+    }
+  },
+  {
+    "word": "ally",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "盟友；结盟"
+    }
+  },
+  {
+    "word": "bee",
+    "correction": {
+      "pos": "n.",
+      "meaning": "蜜蜂"
+    }
+  },
+  {
+    "word": "hub",
+    "correction": {
+      "pos": "n.",
+      "meaning": "中心；枢纽；轮毂"
+    }
+  },
+  {
+    "word": "packing",
+    "correction": {
+      "pos": "n.",
+      "meaning": "打包；包装材料"
+    }
+  },
+  {
+    "word": "rhythm",
+    "correction": {
+      "pos": "n.",
+      "meaning": "节奏；韵律"
+    }
+  },
+  {
+    "word": "cease",
+    "correction": {
+      "pos": "v.",
+      "meaning": "停止；结束"
+    }
+  },
+  {
+    "word": "kidney",
+    "correction": {
+      "pos": "n.",
+      "meaning": "肾脏"
+    }
+  },
+  {
+    "word": "trunk",
+    "correction": {
+      "pos": "n.",
+      "meaning": "树干；象鼻；汽车后备箱；大旅行箱"
+    }
+  },
+  {
+    "word": "mercury",
+    "correction": {
+      "pos": "n.",
+      "meaning": "汞；水银"
+    }
+  },
+  {
+    "word": "bent",
+    "correction": {
+      "pos": "adj.; n.",
+      "meaning": "弯曲的；决心要做的；天赋，爱好"
+    }
+  },
+  {
+    "word": "injection",
+    "correction": {
+      "pos": "n.",
+      "meaning": "注射；投入，注入"
+    }
+  },
+  {
+    "word": "intake",
+    "correction": {
+      "pos": "n.",
+      "meaning": "摄入量；吸入；新招收的人数"
+    }
+  },
+  {
+    "word": "whale",
+    "correction": {
+      "pos": "n.",
+      "meaning": "鲸"
+    }
+  },
+  {
+    "word": "amber",
+    "correction": {
+      "pos": "n.; adj.",
+      "meaning": "琥珀；琥珀色；琥珀色的"
+    }
+  },
+  {
+    "word": "succession",
+    "correction": {
+      "pos": "n.",
+      "meaning": "一连串；连续；继承；接任"
+    }
+  },
+  {
+    "word": "clearance",
+    "correction": {
+      "pos": "n.",
+      "meaning": "许可；清仓；间隙；清除"
+    }
+  },
+  {
+    "word": "spike",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "尖刺；突然上升；急剧增加"
+    }
+  },
+  {
+    "word": "locker",
+    "correction": {
+      "pos": "n.",
+      "meaning": "可上锁的储物柜"
+    }
+  },
+  {
+    "word": "rebellion",
+    "correction": {
+      "pos": "n.",
+      "meaning": "反抗；叛乱"
+    }
+  },
+  {
+    "word": "norm",
+    "correction": {
+      "pos": "n.",
+      "meaning": "规范；常态；标准"
+    }
+  },
+  {
+    "word": "indicator",
+    "correction": {
+      "pos": "n.",
+      "meaning": "指标；指示器；迹象"
+    }
+  },
+  {
+    "word": "catalog",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "目录；商品目录；编入目录"
+    }
+  },
+  {
+    "word": "terrace",
+    "correction": {
+      "pos": "n.",
+      "meaning": "露台；梯田；排屋"
+    }
+  },
+  {
+    "word": "maturity",
+    "correction": {
+      "pos": "n.",
+      "meaning": "成熟；成年；到期"
+    }
+  },
+  {
+    "word": "rubbish",
+    "correction": {
+      "pos": "n.",
+      "meaning": "垃圾；废话；劣质物品"
+    }
+  },
+  {
+    "word": "mock",
+    "correction": {
+      "pos": "v.; adj.",
+      "meaning": "嘲笑；模仿；模拟的"
+    }
+  },
+  {
+    "word": "swamp",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "沼泽；使忙得不可开交；淹没"
+    }
+  },
+  {
+    "word": "reef",
+    "correction": {
+      "pos": "n.",
+      "meaning": "礁；暗礁"
+    }
+  },
+  {
+    "word": "refined",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "精炼的；经过改进的；举止文雅的"
+    }
+  },
+  {
+    "word": "broadly",
+    "correction": {
+      "pos": "adv.",
+      "meaning": "大体上；广泛地"
+    }
+  },
+  {
+    "word": "protestant",
+    "correction": {
+      "pos": "n.; adj.",
+      "meaning": "新教徒；新教的"
+    }
+  },
+  {
+    "word": "retention",
+    "correction": {
+      "pos": "n.",
+      "meaning": "保留；保持；记忆"
+    }
+  },
+  {
+    "word": "axe",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "斧头；削减；取消"
+    }
+  },
+  {
+    "word": "projection",
+    "correction": {
+      "pos": "n.",
+      "meaning": "预测；投影；突起"
+    }
+  },
+  {
+    "word": "render",
+    "correction": {
+      "pos": "v.",
+      "meaning": "使变得；提供；呈现；翻译"
+    }
+  },
+  {
+    "word": "fairness",
+    "correction": {
+      "pos": "n.",
+      "meaning": "公平；公正"
+    }
+  },
+  {
+    "word": "crab",
+    "correction": {
+      "pos": "n.",
+      "meaning": "螃蟹"
+    }
+  },
+  {
+    "word": "logging",
+    "correction": {
+      "pos": "n.",
+      "meaning": "伐木；记录日志"
+    }
+  },
+  {
+    "word": "turf",
+    "correction": {
+      "pos": "n.",
+      "meaning": "草皮；草地；活动地盘"
+    }
+  },
+  {
+    "word": "forensic",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "法医的；司法鉴定的"
+    }
+  },
+  {
+    "word": "valuation",
+    "correction": {
+      "pos": "n.",
+      "meaning": "估价；估值"
+    }
+  },
+  {
+    "word": "solitary",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "独自的；孤独的；单独的"
+    }
+  },
+  {
+    "word": "induction",
+    "correction": {
+      "pos": "n.",
+      "meaning": "入职培训；归纳；感应"
+    }
+  },
+  {
+    "word": "lump",
+    "correction": {
+      "pos": "n.",
+      "meaning": "块；团；肿块"
+    }
+  },
+  {
+    "word": "magistrate",
+    "correction": {
+      "pos": "n.",
+      "meaning": "地方治安法官"
+    }
+  },
+  {
+    "word": "limb",
+    "correction": {
+      "pos": "n.",
+      "meaning": "肢；手臂或腿；大树枝"
+    }
+  },
+  {
+    "word": "overlap",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "重叠；交叠；部分相同"
+    }
+  },
+  {
+    "word": "pulp",
+    "correction": {
+      "pos": "n.",
+      "meaning": "纸浆；果肉；糊状物"
+    }
+  },
+  {
+    "word": "focal",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "焦点的；中心的"
+    }
+  },
+  {
+    "word": "insulation",
+    "correction": {
+      "pos": "n.",
+      "meaning": "隔热；隔音；绝缘；隔离材料"
+    }
+  },
+  {
+    "word": "locality",
+    "correction": {
+      "pos": "n.",
+      "meaning": "地区；地点"
+    }
+  },
+  {
+    "word": "mute",
+    "correction": {
+      "pos": "adj.; v.",
+      "meaning": "沉默的；无声的；静音"
+    }
+  },
+  {
+    "word": "spur",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "马刺；激励因素；激励"
+    }
+  },
+  {
+    "word": "incidence",
+    "correction": {
+      "pos": "n.",
+      "meaning": "发生率；影响范围"
+    }
+  },
+  {
+    "word": "lever",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "杠杆；控制杆；用杠杆撬动"
+    }
+  },
+  {
+    "word": "affiliation",
+    "correction": {
+      "pos": "n.",
+      "meaning": "隶属关系；关联；加入某组织"
+    }
+  },
+  {
+    "word": "astronomy",
+    "correction": {
+      "pos": "n.",
+      "meaning": "天文学"
+    }
+  },
+  {
+    "word": "coherent",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "连贯的；条理清楚的"
+    }
+  },
+  {
+    "word": "maximize",
+    "correction": {
+      "pos": "v.",
+      "meaning": "使最大化；充分利用"
+    }
+  },
+  {
+    "word": "periodic",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "周期性的；定期的"
+    }
+  },
+  {
+    "word": "empirical",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "以观察或实验为依据的；经验的"
+    }
+  },
+  {
+    "word": "exquisite",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "精致的；精美的；强烈而细腻的"
+    }
+  },
+  {
+    "word": "factual",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "基于事实的；事实性的"
+    }
+  },
+  {
+    "word": "refrigerator",
+    "correction": {
+      "pos": "n.",
+      "meaning": "冰箱；冷藏设备"
+    }
+  },
+  {
+    "word": "degradation",
+    "correction": {
+      "pos": "n.",
+      "meaning": "退化；恶化；降解；地位降低"
+    }
+  },
+  {
+    "word": "nominal",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "名义上的；象征性少量的；按票面计算的"
+    }
+  },
+  {
+    "word": "resilience",
+    "correction": {
+      "pos": "n.",
+      "meaning": "恢复能力；适应逆境的能力；弹性"
+    }
+  },
+  {
+    "word": "fencing",
+    "correction": {
+      "pos": "n.",
+      "meaning": "击剑；围栏；筑栅栏"
+    }
+  },
+  {
+    "word": "administer",
+    "correction": {
+      "pos": "v.",
+      "meaning": "管理；实施；给予药物"
+    }
+  },
+  {
+    "word": "saturn",
+    "correction": {
+      "pos": "n.",
+      "meaning": "一种大型蝴蝶，蓝带尖翅环蝶（通常的行星名 Saturn 需大写）"
+    }
+  },
+  {
+    "word": "recess",
+    "correction": {
+      "pos": "n.",
+      "meaning": "休息时间；休会；凹处"
+    }
+  },
+  {
+    "word": "dependency",
+    "correction": {
+      "pos": "n.",
+      "meaning": "依赖；依存关系；附属地区"
+    }
+  },
+  {
+    "word": "initiation",
+    "correction": {
+      "pos": "n.",
+      "meaning": "开始；入会；启蒙"
+    }
+  },
+  {
+    "word": "payable",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "应支付的；可支付的"
+    }
+  },
+  {
+    "word": "ape",
+    "correction": {
+      "pos": "n.",
+      "meaning": "类人猿"
+    }
+  },
+  {
+    "word": "pianist",
+    "correction": {
+      "pos": "n.",
+      "meaning": "钢琴家"
+    }
+  },
+  {
+    "word": "intrinsic",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "内在的；本质的"
+    }
+  },
+  {
+    "word": "amplifier",
+    "correction": {
+      "pos": "n.",
+      "meaning": "放大器；扩音器"
+    }
+  },
+  {
+    "word": "cracker",
+    "correction": {
+      "pos": "n.",
+      "meaning": "薄脆饼干；爆竹"
+    }
+  },
+  {
+    "word": "patronage",
+    "correction": {
+      "pos": "n.",
+      "meaning": "赞助；惠顾；支持"
+    }
+  },
+  {
+    "word": "pinnacle",
+    "correction": {
+      "pos": "n.",
+      "meaning": "顶峰；顶点；尖塔"
+    }
+  },
+  {
+    "word": "seam",
+    "correction": {
+      "pos": "n.",
+      "meaning": "接缝；线缝；煤层"
+    }
+  },
+  {
+    "word": "sanction",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "制裁；批准；授权"
+    }
+  },
+  {
+    "word": "brute",
+    "correction": {
+      "pos": "n.; adj.",
+      "meaning": "野兽；残暴的人；蛮横的"
+    }
+  },
+  {
+    "word": "replication",
+    "correction": {
+      "pos": "n.",
+      "meaning": "复制；重复实验"
+    }
+  },
+  {
+    "word": "ledge",
+    "correction": {
+      "pos": "n.",
+      "meaning": "壁架；岩架；突出的窄平台"
+    }
+  },
+  {
+    "word": "ripple",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "涟漪；波动；泛起涟漪"
+    }
+  },
+  {
+    "word": "harp",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "竖琴；反复谈论"
+    }
+  },
+  {
+    "word": "misplaced",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "放错地方的；不恰当的"
+    }
+  },
+  {
+    "word": "hillside",
+    "correction": {
+      "pos": "n.",
+      "meaning": "山坡；山腰"
+    }
+  },
+  {
+    "word": "hallmark",
+    "correction": {
+      "pos": "n.",
+      "meaning": "标志性特征；品质证明印记"
+    }
+  },
+  {
+    "word": "inclination",
+    "correction": {
+      "pos": "n.",
+      "meaning": "倾向；意愿；斜度"
+    }
+  },
+  {
+    "word": "percussion",
+    "correction": {
+      "pos": "n.",
+      "meaning": "打击乐器；敲击"
+    }
+  },
+  {
+    "word": "coyote",
+    "correction": {
+      "pos": "n.",
+      "meaning": "郊狼"
+    }
+  },
+  {
+    "word": "loom",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "织布机；隐约出现；逼近"
+    }
+  },
+  {
+    "word": "antagonist",
+    "correction": {
+      "pos": "n.",
+      "meaning": "对手；对抗者；拮抗剂"
+    }
+  },
+  {
+    "word": "intimidate",
+    "correction": {
+      "pos": "v.",
+      "meaning": "恐吓；威胁；使胆怯"
+    }
+  },
+  {
+    "word": "modulation",
+    "correction": {
+      "pos": "n.",
+      "meaning": "调节；调制；音乐中的转调"
+    }
+  },
+  {
+    "word": "braid",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "辫子；编成辫子"
+    }
+  },
+  {
+    "word": "signify",
+    "correction": {
+      "pos": "v.",
+      "meaning": "表示；意味着；具有重要性"
+    }
+  },
+  {
+    "word": "staunch",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "坚定的；忠实的"
+    }
+  },
+  {
+    "word": "primate",
+    "correction": {
+      "pos": "n.",
+      "meaning": "灵长类动物；教会首席主教"
+    }
+  },
+  {
+    "word": "resultant",
+    "correction": {
+      "pos": "adj.; n.",
+      "meaning": "由此产生的；合力"
+    }
+  },
+  {
+    "word": "susceptibility",
+    "correction": {
+      "pos": "n.",
+      "meaning": "易受影响；易感性；敏感性"
+    }
+  },
+  {
+    "word": "wad",
+    "correction": {
+      "pos": "n.",
+      "meaning": "一团；一叠；小块软填料"
+    }
+  },
+  {
+    "word": "shiver",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "颤抖；发抖"
+    }
+  },
+  {
+    "word": "cramp",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "痉挛；抽筋；限制"
+    }
+  },
+  {
+    "word": "outflow",
+    "correction": {
+      "pos": "n.",
+      "meaning": "流出；流出量"
+    }
+  },
+  {
+    "word": "sill",
+    "correction": {
+      "pos": "n.",
+      "meaning": "窗台；门槛"
+    }
+  },
+  {
+    "word": "aberration",
+    "correction": {
+      "pos": "n.",
+      "meaning": "偏离常态；异常；像差"
+    }
+  },
+  {
+    "word": "mull",
+    "correction": {
+      "pos": "v.",
+      "meaning": "仔细思考；反复考虑"
+    }
+  },
+  {
+    "word": "serviceable",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "可用的；耐用的；适合使用的"
+    }
+  },
+  {
+    "word": "vertebrate",
+    "correction": {
+      "pos": "n.; adj.",
+      "meaning": "脊椎动物；有脊椎的"
+    }
+  },
+  {
+    "word": "hemoglobin",
+    "correction": {
+      "pos": "n.",
+      "meaning": "血红蛋白"
+    }
+  },
+  {
+    "word": "septum",
+    "correction": {
+      "pos": "n.",
+      "meaning": "隔膜；鼻中隔"
+    }
+  },
+  {
+    "word": "stimulation",
+    "correction": {
+      "pos": "n.",
+      "meaning": "刺激；激励"
+    }
+  },
+  {
+    "word": "validity",
+    "correction": {
+      "pos": "n.",
+      "meaning": "有效性；合理性；合法性"
+    }
+  },
+  {
+    "word": "relevance",
+    "correction": {
+      "pos": "n.",
+      "meaning": "相关性；切题"
+    }
+  },
+  {
+    "word": "subscription",
+    "correction": {
+      "pos": "n.",
+      "meaning": "订阅；订阅费；定期捐款"
+    }
+  },
+  {
+    "word": "meaningful",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "有意义的；有价值的"
+    }
+  },
+  {
+    "word": "culture",
+    "correction": {
+      "pos": "n.",
+      "meaning": "文化；培养物；培养"
+    }
+  },
+  {
+    "word": "electric",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "电的；用电的；充满活力的"
+    }
+  },
+  {
+    "word": "soil",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "土壤；弄脏"
+    }
+  },
+  {
+    "word": "loaded",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "装满的；带有倾向性的"
+    }
+  },
+  {
+    "word": "gather",
+    "correction": {
+      "pos": "v.",
+      "meaning": "聚集；收集；逐渐增加"
+    }
+  },
+  {
+    "word": "usage",
+    "correction": {
+      "pos": "n.",
+      "meaning": "用法；使用；惯例"
+    }
+  },
+  {
+    "word": "reserves",
+    "correction": {
+      "pos": "n.",
+      "meaning": "储备；储备金；自然资源蕴藏量"
+    }
+  },
+  {
+    "word": "mature",
+    "correction": {
+      "pos": "adj.; v.",
+      "meaning": "成熟的；成熟；发展完善"
+    }
+  },
+  {
+    "word": "compound",
+    "correction": {
+      "pos": "n.; adj.; v.",
+      "meaning": "化合物；复合物；复合的；加重"
+    }
+  },
+  {
+    "word": "substantial",
+    "correction": {
+      "pos": "adj.",
+      "meaning": "大量的；重要的；实质的"
+    }
+  },
+  {
+    "word": "dynamic",
+    "correction": {
+      "pos": "adj.; n.",
+      "meaning": "充满活力的；动态的；相互作用的力量"
+    }
+  },
+  {
+    "word": "suspension",
+    "correction": {
+      "pos": "n.",
+      "meaning": "暂停；悬挂；悬浮"
+    }
+  },
+  {
+    "word": "plant",
+    "correction": {
+      "pos": "n.; v.",
+      "meaning": "植物；工厂；种植"
+    }
+  },
+  {
+    "word": "egg",
+    "correction": {
+      "pos": "n.",
+      "meaning": "蛋；卵"
+    }
+  },
+  {
+    "word": "french",
+    "correction": {
+      "pos": "v.",
+      "meaning": "把蔬菜切成长条（语言和国籍名称 French 需大写）"
+    }
+  },
+  {
+    "word": "yearn",
+    "correction": {
+      "pos": "v.",
+      "meaning": "渴望；向往；思念"
+    }
+  }
+]

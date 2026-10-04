@@ -1,0 +1,75 @@
+.activity-calendar,.daily-progress{--activity-zero:#edf0e8;--activity-one:#d3e0ca;--activity-two:#abc397;--activity-three:#7e9e6c;--activity-four:#476c43;min-width:0}
+.activity-section-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:21px}
+.activity-section-heading h2{font-size:24px}
+.activity-section-heading p{font-size:12px;color:var(--muted);margin-top:5px}
+.activity-section-heading>span{font-size:12px;color:var(--muted);white-space:nowrap;padding-top:6px}
+.activity-calendar{padding:27px 30px;border:1px solid var(--line);border-radius:16px;background:#fff;margin:22px 0}
+.activity-calendar.is-embedded{padding:0;border:0;border-radius:0;background:transparent;margin:0}
+.activity-calendar.is-embedded>.activity-section-heading{margin-bottom:9px}
+.activity-calendar.is-embedded>.activity-section-heading>span{padding:0}
+.activity-calendar-scroll{overflow-x:auto;padding:3px 3px 8px;scrollbar-width:thin}
+.activity-calendar-chart{--activity-cell-size:16px;display:flex;gap:10px;width:max-content}
+.activity-calendar-weekdays{display:grid;grid-template-rows:repeat(7,var(--activity-cell-size));padding-top:24px;gap:4px;align-items:center;color:var(--muted);font-size:10px;width:13px;flex-shrink:0}
+.activity-calendar-weekdays span:nth-child(1){grid-row:1}.activity-calendar-weekdays span:nth-child(2){grid-row:3}.activity-calendar-weekdays span:nth-child(3){grid-row:5}.activity-calendar-weekdays span:nth-child(4){grid-row:7}
+.activity-calendar-weeks{display:grid;grid-template-columns:repeat(var(--activity-weeks,26),var(--activity-cell-size));gap:4px}
+.activity-calendar-week{display:grid;grid-template-rows:20px repeat(7,var(--activity-cell-size));gap:4px}
+.activity-calendar-month{font-size:10px;color:var(--muted);white-space:nowrap;align-self:start}
+.activity-calendar .activity-cell{display:block;padding:0;min-height:0;aspect-ratio:1;width:var(--activity-cell-size);height:var(--activity-cell-size);border:1px solid #243d3407;border-radius:4px;transition:box-shadow .15s ease}
+.activity-calendar .activity-cell.level-0,.activity-legend .level-0{background:var(--activity-zero)}
+.activity-calendar .activity-cell.level-1,.activity-legend .level-1{background:var(--activity-one)}
+.activity-calendar .activity-cell.level-2,.activity-legend .level-2{background:var(--activity-two)}
+.activity-calendar .activity-cell.level-3,.activity-legend .level-3{background:var(--activity-three)}
+.activity-calendar .activity-cell.level-4,.activity-legend .level-4{background:var(--activity-four)}
+.activity-calendar .activity-cell.is-today{border-color:#58754b}
+.activity-calendar .activity-cell.is-selected{box-shadow:0 0 0 2px #fff,0 0 0 3px #476c43}
+.activity-calendar .activity-cell:disabled{opacity:.24;cursor:default}
+.activity-calendar .activity-cell:focus-visible{outline:2px solid #243d34;outline-offset:2px;position:relative;z-index:1}
+.activity-calendar-footer{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-top:16px}
+.activity-calendar-footer p{font-size:12px;color:var(--muted)}
+.activity-calendar-footer strong{color:var(--ink);font-weight:500}
+.activity-legend{display:flex;align-items:center;gap:4px;font-size:10px;color:var(--muted);white-space:nowrap}
+.activity-legend i{height:11px;width:11px;border-radius:2px;display:block}
+.activity-legend>span:first-child{margin-right:3px}.activity-legend>span:last-child{margin-left:3px}
+.activity-calendar-hint{font-size:10px;color:var(--muted);margin-top:8px}
+.daily-progress{margin:24px 0 30px}
+.daily-progress-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:20px 0;gap:20px}
+.daily-progress-metric{min-width:0;padding-left:20px;border-left:1px solid var(--line)}
+.daily-progress-metric:first-child{border-left:0;padding-left:0}
+.daily-progress-label{font-size:12px;color:var(--muted)}
+.daily-progress-metric>p{display:flex;align-items:baseline;gap:7px;line-height:1.25;margin:6px 0 7px}
+.daily-progress-metric strong{font-family:Georgia,var(--serif);font-size:34px;font-weight:400;font-variant-numeric:tabular-nums;line-height:1.2}
+.daily-progress-metric em{font-style:normal;font-size:23px;color:var(--muted)}
+.daily-progress-metric>p>span{font-size:11px;color:var(--muted);white-space:nowrap}
+.daily-progress-metric>small{display:block;color:var(--muted);font-size:11px;line-height:1.7}
+.daily-progress-change{display:block;color:var(--forest);font-size:11px;margin-top:7px;line-height:1.7}
+.daily-progress-footnote{color:var(--muted);font-size:10px;line-height:1.8;margin-top:11px}
+.daily-progress.is-compact .daily-progress-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}
+.daily-progress.is-compact .activity-section-heading h2{font-size:22px}
+.daily-progress.is-compact .activity-section-heading p{margin-top:0}
+@media(max-width:760px){
+  .activity-calendar{padding:20px 16px;border-radius:14px;margin:20px 0}
+  .activity-section-heading{gap:8px;flex-wrap:wrap;margin-bottom:17px}
+  .activity-section-heading h2{font-size:22px}
+  .activity-section-heading p{font-size:11px;line-height:1.8}
+  .activity-section-heading>span{font-size:10px;padding-top:0}
+  .activity-calendar-chart{--activity-cell-size:15px;gap:8px}
+  .activity-calendar-weeks,.activity-calendar-week{gap:4px}
+  .activity-calendar-weekdays{gap:4px;padding-top:24px}
+  .activity-calendar .activity-cell{border-radius:3px}
+  .activity-calendar-footer{gap:10px;align-items:flex-start;flex-wrap:wrap;margin-top:10px}
+  .activity-calendar-footer p{font-size:11px}
+  .activity-calendar-hint{font-size:10px;line-height:1.8}
+  .daily-progress{margin:21px 0 25px}
+  .daily-progress-metrics{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 14px;padding:17px 0}
+  .daily-progress-metric{padding-left:14px}
+  .daily-progress-metric:nth-child(3){grid-column:1/-1;display:grid;grid-template-columns:1fr auto;column-gap:10px;border:0;border-top:1px solid var(--line);padding:14px 0 0;align-items:baseline}
+  .daily-progress-metric:nth-child(3)>p{grid-column:2;grid-row:1/3;margin:0}
+  .daily-progress-metric:nth-child(3) strong{font-size:27px}
+  .daily-progress-metric:nth-child(3)>small{grid-column:1}
+  .daily-progress-metric:nth-child(3) .daily-progress-change{grid-column:1/-1}
+  .daily-progress-metric strong{font-size:30px}
+  .daily-progress-metric em{font-size:20px}
+  .daily-progress-metric>small,.daily-progress-change{font-size:10px}
+}
+
+.activity-calendar-weekdays{position:sticky;left:0;z-index:1;background:#fff}
