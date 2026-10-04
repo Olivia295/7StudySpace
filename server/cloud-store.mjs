@@ -33,11 +33,18 @@ function isConflict(error) {
  */
 export function createCloudStore({ blob, pathname = 'study77/private-space.json', retries = 8 } = {}) {
   if (!blob?.get || !blob?.put) throw new Error('A private Blob adapter is required.');
-  const blobRead = (key) => blob.get(key, { access: 'private', useCache: false });
+  const blobRead = (key) => blob.get(key, {
+    access: 'private', useCache: false,
+    // Blob's compression layer changes a strong ETag into W/"..." once a JSON
+    // response becomes large enough. If-Match requires the original strong ETag;
+    // requesting the identity representation preserves the read/write contract.
+    headers: { 'accept-encoding': 'identity' },
+  });
   async function read() {
     const object = await blobRead(pathname);
     if (!object) return { document: emptyCloudDocument(), etag: null };
     if (object.statusCode !== 200 || !object.stream || !object.blob?.etag) throw new Error('Invalid private storage response.');
+    if (object.blob.etag.startsWith('W/')) throw new Error('Private storage did not return a strong ETag.');
     const document = await new Response(object.stream).json();
     if (!validDocument(document)) throw new Error('Unsupported private storage format.');
     return { document, etag: object.blob.etag };

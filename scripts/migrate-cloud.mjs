@@ -22,7 +22,7 @@ async function request(route, options = {}) {
   });
   if (!response.ok) {
     const message = await response.json().catch(() => ({}));
-    throw Error(`${route}: HTTP ${response.status} (${message.error || 'request_failed'})`);
+    throw Object.assign(Error(`${route}: HTTP ${response.status} (${message.error || 'request_failed'})`), { status: response.status });
   }
   return response;
 }
@@ -54,6 +54,15 @@ for (const id of referenced) {
   const bytes = readFileSync(path.join(dataDir, 'files', id));
   const hash = createHash('sha256').update(bytes).digest('hex');
   if (hash !== row.content_hash || bytes.length !== row.size) throw Error('Local attachment failed integrity validation.');
+  let existing;
+  try { existing = await (await request(`/files/${id}/meta`)).json(); }
+  catch (error) { if (error.status !== 404) throw error; }
+  if (existing) {
+    if (existing.contentHash !== hash || existing.size !== bytes.length || existing.mimeType !== row.mime_type) throw Error('Cloud attachment conflicts with the local copy.');
+    files++;
+    console.log(`Verified private attachment ${files}/${referenced.size}`);
+    continue;
+  }
   const chunkSize = 3_000_000, totalChunks = Math.ceil(bytes.length / chunkSize);
   for (let index = 0; index < totalChunks; index++) {
     await request(`/files/${id}/chunks/${index}`, { method: 'POST', headers: { 'Content-Type': row.mime_type }, body: bytes.subarray(index * chunkSize, (index + 1) * chunkSize) });

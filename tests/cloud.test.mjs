@@ -15,7 +15,8 @@ function memoryBlob() {
       reads.push(options);
       const old = objects.get(path);
       if (!old) return null;
-      return { statusCode: 200, stream: new Blob([old.bytes]).stream(), blob: { etag: old.etag, contentType: old.mimeType } };
+      const compressed = old.mimeType === 'application/json' && old.bytes.length >= 1024 && options.headers?.['accept-encoding'] !== 'identity';
+      return { statusCode: 200, stream: new Blob([old.bytes]).stream(), blob: { etag: compressed ? `W/${old.etag}` : old.etag, contentType: old.mimeType } };
     },
     async put(path, body, options) {
       const old = objects.get(path);
@@ -52,6 +53,14 @@ test('private cloud CAS retries real SDK ETag conflicts and preserves parallel w
   const { document } = await store.read();
   assert.equal(Object.keys(document.sessions).length, 10);
   assert.ok(blob.reads.every((options) => options.access === 'private' && options.useCache === false));
+});
+
+test('mutable JSON reads preserve strong ETags after the response reaches compression size', async () => {
+  const blob = memoryBlob(), store = createCloudStore({ blob });
+  await store.update((doc) => { doc.snapshot.state = { text: 'x'.repeat(2048) }; });
+  await store.update((doc) => { doc.initialized = true; });
+  assert.equal((await store.read()).document.initialized, true);
+  assert.ok(blob.reads.every((options) => options.headers?.['accept-encoding'] === 'identity'));
 });
 
 test('unchanged or oversized document mutations preserve persisted auth and consume no write', async () => {
