@@ -1,6 +1,6 @@
 .git/
 .vercel/
-data/
+/data/
 private/
 backups/
 .env*

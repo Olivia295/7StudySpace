@@ -54,4 +54,18 @@ describe('attachment cache synchronization',()=>{
   await syncFiles(stateWithAttachment());
   expect(mocks.uploadFile).toHaveBeenCalledTimes(2);expect(mocks.tables.fileSync.get('private-id')).toBe(true);
  });
+ it('shares a download while one viewer cancels and another still needs it',async()=>{
+  let complete!:(file:Blob)=>void;
+  mocks.requestFile.mockImplementationOnce(()=>new Promise<Blob>(resolve=>{complete=resolve;}));
+  const controller=new AbortController();
+  const first=getOrFetchFile('shared-id',controller.signal);
+  const second=getOrFetchFile('shared-id');
+  const cancelled=expect(first).rejects.toMatchObject({name:'AbortError'});
+  await vi.waitFor(()=>expect(mocks.requestFile).toHaveBeenCalledTimes(1));
+  controller.abort();await cancelled;
+  expect(mocks.requestFile.mock.calls[0][1].aborted).toBe(false);
+  const file=new Blob(['complete']);complete(file);
+  expect(await second).toBe(file);expect(mocks.tables.files.get('shared-id')).toBe(file);
+ });
+
 });

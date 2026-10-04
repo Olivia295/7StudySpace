@@ -10,15 +10,38 @@ export const cacheRemoteFile = async (id:string,file:Blob) => {const db=await da
 export async function restoreFileBatch(files:{id:string;blob:Blob}[]){const db=await database;for(const file of files){const old=await getFile(file.id);if(old){const a=new Uint8Array(await old.arrayBuffer()),b=new Uint8Array(await file.blob.arrayBuffer());if(a.length!==b.length||a.some((n,i)=>n!==b[i]))throw Error('附件与现有文件冲突');}}const tx=db.transaction(['files','fileSync'],'readwrite');for(const file of files){await tx.objectStore('files').put(file.blob,file.id);await tx.objectStore('fileSync').delete(file.id);}await tx.done;}
 export async function allFiles() { const db=await database; const keys=await db.getAllKeys('files'); return Promise.all(keys.map(async key=>({id:String(key),blob:await db.get('files',key) as Blob}))); }
 export const requestFile = (id:string,signal?:AbortSignal) => fileTransport.requestFile(id,signal);
+const downloads=new Map<string,{promise:Promise<Blob>;controller:AbortController;readers:number;settled:boolean}>();
 export async function getOrFetchFile(id:string,signal?:AbortSignal):Promise<Blob> {
  if(signal?.aborted)throw signal.reason??new DOMException('请求已取消','AbortError');
  const local=await getFile(id);
  if(signal?.aborted)throw signal.reason??new DOMException('请求已取消','AbortError');
  if(local)return local;
- const remote=await requestFile(id,signal);
- // Only complete, verified remote attachments are marked as synchronized.
- await cacheRemoteFile(id,remote);
- return remote;
+ let pending=downloads.get(id);
+ if(!pending){
+  const controller=new AbortController();
+  const promise=requestFile(id,controller.signal).then(async remote=>{
+   if(controller.signal.aborted)throw controller.signal.reason;
+   // Only complete, verified attachments are written to the local cache.
+   await cacheRemoteFile(id,remote);return remote;
+  }).finally(()=>{if(downloads.get(id)?.promise===promise)downloads.delete(id);});
+  pending={promise,controller,readers:0,settled:false};downloads.set(id,pending);
+  const current=pending;void promise.then(()=>{current.settled=true;},()=>{current.settled=true;});
+ }
+ // Opening a document while background sync runs shares its download. Closing
+ // one viewer cancels only that consumer; the last consumer aborts the network.
+ const current=pending;current.readers++;
+ return new Promise<Blob>((resolve,reject)=>{
+  let finished=false;
+  const finish=(callback:()=>void)=>{
+   if(finished)return;finished=true;signal?.removeEventListener('abort',abort);current.readers--;
+   if(!current.readers&&!current.settled){current.controller.abort();if(downloads.get(id)===current)downloads.delete(id);}
+   callback();
+  };
+  const abort=()=>finish(()=>reject(signal?.reason??new DOMException('请求已取消','AbortError')));
+  signal?.addEventListener('abort',abort,{once:true});
+  if(signal?.aborted)abort();
+  void current.promise.then(file=>finish(()=>resolve(file)),error=>finish(()=>reject(error)));
+ });
 }
 export async function syncFiles(state:StudyState,downloadOnly=false){
  const ids=new Set([...state.imports.flatMap(l=>[l.originalFile,l.referenceFile,l.audio?.startsWith('file:')?l.audio.slice(5):undefined]),...(state.importedWords??[]).map(w=>w.originalFile)].filter((id):id is string=>!!id));
