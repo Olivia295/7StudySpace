@@ -215,3 +215,34 @@ test('original files require authentication, sync across devices and support aud
     assert.equal(unsupported.status, 415);
   } finally { await f.close(); }
 });
+
+test('JSON attachments round-trip unchanged while ordinary API requests still validate JSON', async () => {
+  const f = await fixture();
+  try {
+    const cookie = await f.login();
+    const originals = [' \n{\n  "title": "原始资料", "answer": 2\n}\n', '["一", 2]\n', '"原始文字 JSON"\n'];
+    for (const [index, original] of originals.entries()) {
+      const id = `json-fixture-${index}-12345678`;
+      const bytes = Buffer.from(original);
+      const upload = await fetch(`${f.base}/api/files/${id}`, {
+        method: 'POST', headers: { Cookie: cookie, 'Content-Type': 'application/json; charset=utf-8' }, body: bytes,
+      });
+      assert.equal(upload.status, 201);
+      assert.equal((await upload.json()).size, bytes.length);
+      const download = await fetch(`${f.base}/api/files/${id}`, { headers: { Cookie: cookie } });
+      assert.equal(download.status, 200);
+      assert.match(download.headers.get('content-type'), /^application\/json/);
+      assert.deepEqual(Buffer.from(await download.arrayBuffer()), bytes);
+      assert.equal((await fetch(`${f.base}/api/files/${id}`)).status, 401);
+    }
+    const unauthorized = await fetch(`${f.base}/api/files/json-private-12345678`, {
+      method: 'POST', headers: { 'Content-Type': 'application/json' }, body: '{not parsed before authentication',
+    });
+    assert.equal(unauthorized.status, 401);
+    const malformedState = await fetch(`${f.base}/api/state`, {
+      method: 'PUT', headers: { Cookie: cookie, 'Content-Type': 'application/json' }, body: '{invalid',
+    });
+    assert.equal(malformedState.status, 400);
+    assert.equal((await malformedState.json()).error, 'invalid_json');
+  } finally { await f.close(); }
+});

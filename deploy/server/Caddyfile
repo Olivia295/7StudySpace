@@ -1,0 +1,16 @@
+{
+	email {$ACME_EMAIL}
+}
+
+{$STUDY77_DOMAIN} {
+	encode zstd gzip
+	header {
+		X-Content-Type-Options nosniff
+		Referrer-Policy no-referrer
+		X-Frame-Options DENY
+		-Server
+	}
+	@fresh path / /index.html /sw.js /manifest.webmanifest
+	header @fresh Cache-Control "no-cache"
+	reverse_proxy app:4174
+}

@@ -1,0 +1,10 @@
+[Unit]
+Description=Back up 77 Study Space database and private attachments
+Requires=docker.service
+After=docker.service
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/7studyspace/deploy/server
+ExecStart=/bin/sh /opt/7studyspace/deploy/server/backup.sh
+UMask=0077

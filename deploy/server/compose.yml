@@ -1,0 +1,57 @@
+name: study77
+
+services:
+  app:
+    build:
+      context: ../..
+      dockerfile: deploy/server/Dockerfile
+    image: study77:local
+    restart: unless-stopped
+    init: true
+    environment:
+      NODE_ENV: production
+      HOST: 0.0.0.0
+      PORT: "4174"
+      STUDY77_DATA_DIR: /app/data
+      STUDY77_PUBLIC_ORIGIN: https://${STUDY77_DOMAIN:?Set STUDY77_DOMAIN in .env}
+      STUDY77_CODEX_WORKER: "0"
+    volumes:
+      - ${STUDY77_DATA_PATH:?Set an absolute STUDY77_DATA_PATH in .env}:/app/data
+      - ${STUDY77_BACKUP_PATH:?Set an absolute STUDY77_BACKUP_PATH in .env}:/app/backups
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m,mode=1777
+    cap_drop: [ALL]
+    security_opt:
+      - no-new-privileges:true
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  web:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    depends_on:
+      app:
+        condition: service_healthy
+    environment:
+      STUDY77_DOMAIN: ${STUDY77_DOMAIN:?Set STUDY77_DOMAIN in .env}
+      ACME_EMAIL: ${ACME_EMAIL:?Set ACME_EMAIL in .env}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  caddy_data:
+  caddy_config:

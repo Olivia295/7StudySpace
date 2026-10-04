@@ -1,0 +1,22 @@
+# Allowlist: private records, credentials, Git history and local files never enter the build.
+*
+!package.json
+!package-lock.json
+!tsconfig.json
+!vite.config.ts
+!index.html
+!src/
+!src/**
+!public/
+!public/**
+!server/
+!server/**
+!scripts/
+scripts/*
+!scripts/build-offline.mjs
+!scripts/backup-server.mjs
+!deploy/
+deploy/*
+!deploy/server/
+deploy/server/*
+!deploy/server/Dockerfile

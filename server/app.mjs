@@ -13,6 +13,7 @@ const LOOPBACK = new Set(['127.0.0.1', '::1', '::ffff:127.0.0.1']);
 const LOCAL_HOSTS = new Set(['localhost', '127.0.0.1', '[::1]']);
 const pairingAlphabet = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
 const fileIdPattern = /^[A-Za-z0-9_-]{8,100}$/;
+const rawFilePathPattern = /^\/files\/[A-Za-z0-9_-]{8,100}$/;
 const fileMimeTypes = new Set(['application/pdf', 'image/png', 'image/jpeg', 'image/webp', 'audio/mpeg', 'audio/mp3', 'audio/wav', 'audio/x-wav', 'audio/mp4', 'audio/m4a', 'audio/ogg', 'audio/webm', 'audio/aac', 'audio/flac', 'text/plain', 'text/csv', 'application/json', 'text/markdown']);
 const jsonRecord = z.record(z.string(), z.unknown());
 const stateSchema = z.object({ state: jsonRecord, revision: z.number().int().min(0) }).strict();
@@ -81,12 +82,18 @@ export function createApp({
     const sameOrigin = publicOrigin || `${req.protocol}://${req.headers.host}`;
     if (origin && origin !== sameOrigin) return res.status(403).json({ error: 'origin_forbidden', message: '请从学习空间本身访问。' });
     if (req.headers['sec-fetch-site'] === 'cross-site') return res.status(403).json({ error: 'origin_forbidden' });
-    if (['POST', 'PUT', 'PATCH', 'DELETE'].includes(req.method) && !/^\/files\/[A-Za-z0-9_-]{8,100}$/.test(req.path) && !req.is('application/json')) {
+    if (['POST', 'PUT', 'PATCH', 'DELETE'].includes(req.method) && !rawFilePathPattern.test(req.path) && !req.is('application/json')) {
       return res.status(415).json({ error: 'json_required' });
     }
     next();
   });
-  app.use('/api', express.json({ limit: '16mb', strict: true }));
+  const parseJson = express.json({ limit: '16mb', strict: true });
+  app.use('/api', (req, res, next) => {
+    // Imported JSON is an attachment: preserve its original bytes and let the
+    // authenticated file route apply its own size limit and raw body parser.
+    if (req.method === 'POST' && rawFilePathPattern.test(req.path)) return next();
+    return parseJson(req, res, next);
+  });
 
   // In-memory limits are sufficient for one local process; tokens are still
   // cryptographically random and one-time checks are persisted in SQLite.
